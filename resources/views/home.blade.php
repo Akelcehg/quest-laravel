@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@push('styles')
+    <link href="/css/home.css" rel="stylesheet">
+@endpush
+
 @section('content')
     <section class="white">
         <div class="section-content">

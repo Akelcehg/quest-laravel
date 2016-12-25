@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
+    @stack('styles')
 
     <!-- Scripts -->
     <script>
