@@ -1,2 +1,22 @@
+section.intro {
+  background-color: #1f2225;
+  height: 450px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.intro .section-content {
+  margin: 0 auto;
+}
+
+section.intro h1.heading {
+  font-size: 40px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
 
 /*# sourceMappingURL=home.css.map */
