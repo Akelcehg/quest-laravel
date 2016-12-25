@@ -20,6 +20,8 @@ header .logo img {
 @media screen and (max-width: 420px) {
   header .logo {
     width: 50%;
+    border: none;
+    margin-left: 25%;
   }
 }
 
@@ -32,7 +34,7 @@ header .address {
   height: 70px;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1060px) {
   header .address {
     display: none;
   }
@@ -53,7 +55,7 @@ header nav ul {
   overflow: hidden;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   header nav ul {
     width: 100%;
   }
@@ -62,7 +64,7 @@ header nav ul {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   header nav ul ul.navigation.responsive {
     position: relative;
   }
@@ -102,7 +104,7 @@ header nav ul a:hover {
   color: #fb383c;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 880px) {
   header nav ul {
     border-top: 2px solid #4c4e51;
   }
@@ -111,7 +113,7 @@ header nav ul a:hover {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   header nav ul.responsive {
     position: relative;
   }
@@ -146,7 +148,7 @@ header .menu-dropdown .icon {
   display: none;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
   header .menu-dropdown {
     border: none;
   }
@@ -176,12 +178,18 @@ header .menu-dropdown .icon {
 }
 
 .footer-wrapper footer .logo {
-  width: 150px;
+  width: 160px;
   height: 70px;
 }
 
 .footer-wrapper footer .logo img {
   height: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .footer-wrapper footer .logo {
+    margin: 0 auto;
+  }
 }
 
 .footer-wrapper footer .footer-email {
@@ -201,6 +209,12 @@ header .menu-dropdown .icon {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 16px;
+}
+
+@media screen and (max-width: 420px) {
+  .footer-wrapper footer p.heading {
+    text-align: center;
+  }
 }
 
 .footer-wrapper footer p {
@@ -230,8 +244,23 @@ header .menu-dropdown .icon {
   float: left;
 }
 
+@media screen and (max-width: 420px) {
+  .footer-wrapper footer.social .left {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .footer-wrapper footer.social .right {
   float: right;
+}
+
+@media screen and (max-width: 420px) {
+  .footer-wrapper footer.social .right {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 .footer-wrapper footer.social .right p {

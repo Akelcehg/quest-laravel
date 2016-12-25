@@ -15,10 +15,13 @@ $border_width: 2px;
     overflow: auto;
 
     .logo {
-      width: 150px;
+      width: 160px;
       height: 70px;
       img {
         height: 100%;
+      }
+      @media screen and (max-width: 420px) {
+        margin: 0 auto;
       }
     }
 
@@ -39,6 +42,9 @@ $border_width: 2px;
       font-family: 'Montserrat', sans-serif;
       color: white;
       font-size: 16px;
+      @media screen and (max-width: 420px) {
+        text-align: center;
+      }
     }
 
     p {
@@ -66,9 +72,18 @@ $border_width: 2px;
 
     .left {
       float: left;
+      @media screen and (max-width: 420px) {
+        width: 100%;
+        text-align: center;
+      }
     }
     .right {
       float: right;
+      @media screen and (max-width: 420px) {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
       p {
         margin: 0 1px 1px 15px;
         display: inline-block;

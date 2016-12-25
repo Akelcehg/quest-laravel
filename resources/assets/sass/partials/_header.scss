@@ -22,6 +22,8 @@ header {
     }
     @media screen and (max-width: 420px) {
       width: 50%;
+      border: none;
+      margin-left: 25%;
     }
   }
 
@@ -32,7 +34,7 @@ header {
     padding-left: 25px;
     float: left;
     height: $header_height;
-    @media screen and (max-width: 1010px) {
+    @media screen and (max-width: 1060px) {
       display: none;
     }
   }
@@ -50,14 +52,14 @@ header {
       display: inline-block;
       overflow: hidden;
 
-      @media screen and (max-width: 680px) {
+      @media screen and (max-width: 700px) {
         width: 100%;
         li {
           display: none;
         }
       }
 
-      @media screen and (max-width: 680px) {
+      @media screen and (max-width: 700px) {
         ul.navigation.responsive {
           position: relative;
         }
@@ -97,7 +99,7 @@ header {
         color: $coral;
       }
 
-      @media screen and (max-width: 830px) {
+      @media screen and (max-width: 880px) {
         a {
           padding: 0 15px 0 15px;
         }
@@ -105,7 +107,7 @@ header {
       }
     }
 
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 700px) {
       ul.responsive {
         position: relative;
       }
@@ -138,7 +140,7 @@ header {
     .icon {
       display: none;
     }
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 700px) {
       border: none;
       p {
         display: none;
