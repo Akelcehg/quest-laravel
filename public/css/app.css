@@ -8,7 +8,7 @@ header {
 header .logo {
   float: left;
   height: 70px;
-  width: 150px;
+  width: 200px;
   text-align: center;
   border-right: 2px solid #4c4e51;
 }
@@ -177,7 +177,7 @@ header .menu-dropdown .icon {
 
 .footer-wrapper footer .logo {
   width: 150px;
-  height: 50px;
+  height: 70px;
 }
 
 .footer-wrapper footer .logo img {
@@ -200,7 +200,7 @@ header .menu-dropdown .icon {
 .footer-wrapper footer p.heading {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .footer-wrapper footer p {
@@ -218,6 +218,44 @@ header .menu-dropdown .icon {
     width: 100%;
     margin-bottom: 20px;
   }
+}
+
+.footer-wrapper footer.social {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 2px solid #4c4e51;
+}
+
+.footer-wrapper footer.social .left {
+  float: left;
+}
+
+.footer-wrapper footer.social .right {
+  float: right;
+}
+
+.footer-wrapper footer.social .right p {
+  margin: 0 1px 1px 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer-wrapper footer.social .right p a {
+  text-decoration: none;
+  color: #6c7176;
+}
+
+.footer-wrapper footer.social .right p i {
+  background-color: #16181a;
+  padding: 10px 14px;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: 0px 0px 2px #2e3337;
+}
+
+.footer-wrapper footer.social .right p i:hover {
+  color: white;
+  background-color: #2e3337;
 }
 
 * {

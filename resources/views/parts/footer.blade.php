@@ -2,7 +2,7 @@
     <footer>
         <section class="one-third">
             <div class="logo">
-                <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png">
+                <img src="/img/logo.png"/>
             </div>
             <div class="section-content">
                 <p>Curabitur iaculis accumsan augue, nec finibus mauris pretium eu. Duis placerat ex gravida nibh
@@ -26,9 +26,20 @@
                 </p>
                 <input class="footer-email" type="text" placeholder="Your email">
                 <p>
-                    *  Integer sit amet mi id sapien tempor
+                    * Integer sit amet mi id sapien tempor
                 </p>
             </div>
         </section>
+    </footer>
+    <footer class="social">
+        <div class="left">
+            <p>© All rights reserved</p>
+        </div>
+        <div class="right">
+            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+        </div>
     </footer>
 </section>

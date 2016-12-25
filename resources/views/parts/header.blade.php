@@ -1,6 +1,6 @@
 <header>
     <div class="logo">
-        <img src="http://design.ubuntu.com/wp-content/uploads/ubuntu-logo32.png"/>
+        <img src="/img/logo.png"/>
     </div>
 
     <div class="address">

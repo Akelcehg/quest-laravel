@@ -12,11 +12,11 @@ $border_width: 2px;
     margin: 0 auto;
     width: 80%;
     border-top: $border_width $border_color;
-    overflow:auto;
+    overflow: auto;
 
     .logo {
       width: 150px;
-      height: 50px;
+      height: 70px;
       img {
         height: 100%;
       }
@@ -38,7 +38,7 @@ $border_width: 2px;
     p.heading {
       font-family: 'Montserrat', sans-serif;
       color: white;
-      font-size: 13px;
+      font-size: 16px;
     }
 
     p {
@@ -55,6 +55,43 @@ $border_width: 2px;
       .one-third {
         width: 100%;
         margin-bottom: 20px;
+      }
+    }
+  }
+
+  footer.social {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: $border_width solid $border_color;
+
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+      p {
+        margin: 0 1px 1px 15px;
+        display: inline-block;
+        font-size: 16px;
+        a {
+          text-decoration: none;
+          color: #6c7176;
+        }
+        i {
+          background-color: #16181a;
+          padding: 10px 14px;
+          display: inline-block;
+          -moz-border-radius: 100px;
+          -webkit-border-radius: 100px;
+          border-radius: 100px;
+          -moz-box-shadow: 0px 0px 2px #2e3337;
+          -webkit-box-shadow: 0px 0px 2px #2e3337;
+          box-shadow: 0px 0px 2px #2e3337;
+        }
+        i:hover {
+          color: white;
+          background-color: #2e3337;
+        }
       }
     }
 
