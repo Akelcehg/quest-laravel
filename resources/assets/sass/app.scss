@@ -1,0 +1,22 @@
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+// Variables
+@import "variables";
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "partials/header";
+@import "partials/footer";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.one-third {
+  width: 33.33333333333333%;
+  float: left;
+}
