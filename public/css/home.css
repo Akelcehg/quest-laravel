@@ -6,6 +6,7 @@ section.intro {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
+  border-bottom: 2px solid #4c4e51;
 }
 
 section.intro .section-content {
@@ -17,6 +18,77 @@ section.intro h1.heading {
   color: white;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
+}
+
+section.tasks {
+  background: #090c0e url("../img/circle.png") no-repeat center;
+  height: 450px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.tasks .section-content {
+  margin: 0 auto;
+}
+
+section.tasks .key {
+  margin-left: 10px;
+}
+
+section.tasks .text-left {
+  text-align: left;
+}
+
+section.tasks .text-right {
+  text-align: right;
+}
+
+section.tasks .left-side {
+  width: 43%;
+  float: left;
+}
+
+section.tasks .right-side {
+  width: 43%;
+  float: left;
+}
+
+section.tasks .mid {
+  width: 14%;
+  float: left;
+}
+
+section.tasks .task-container .heading {
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.tasks .task-container .task-number {
+  color: #fb383c;
+}
+
+section.tasks .task-container .desc {
+  color: #6c7176;
+  text-align: justify;
+  width: 70%;
+}
+
+section.tasks .task-container .l {
+  margin-left: 30%;
+}
+
+section.tasks .task-container .r {
+  margin-right: 30%;
+}
+
+section.tasks .task-container p {
+  margin: 15px 0 15px 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=home.css.map */

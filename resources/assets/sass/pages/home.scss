@@ -1,8 +1,32 @@
 $section_bg: #1f2225;
-$font: 'Montserrat', sans-serif;
+$font-monster: 'Montserrat', sans-serif;
+$font-open: 'Open Sans', sans-serif;
+$black_bg: #1f2225;
+$border_color: #4c4e51;
+$coral: #fb383c;
 
-section.intro{
+section.intro {
   background-color: $section_bg;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid $border_color;
+
+  .section-content {
+    margin: 0 auto;
+  }
+
+  h1.heading {
+    font-size: 40px;
+    color: white;
+    font-family: $font-monster;
+    margin-bottom: 20px;
+  }
+}
+
+section.tasks {
+  background: #090c0e url("../img/circle.png") no-repeat center;
   height: 450px;
   display: flex;
   align-items: center;
@@ -12,10 +36,58 @@ section.intro{
     margin: 0 auto;
   }
 
-  h1.heading{
-    font-size: 40px;
-    color: white;
-    font-family: $font;
-    margin-bottom: 20px;
+  .key {
+    margin-left: 10px;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+
+  .left-side {
+    width: 43%;
+    float: left;
+  }
+
+  .right-side {
+    width: 43%;
+    float: left;
+  }
+
+  .mid {
+    width: 14%;
+    float: left;
+  }
+  .task-container {
+    .heading {
+      color: white;
+      font-size: 16px;
+      font-family: $font-monster;
+    }
+    .task-number {
+      color: $coral;
+
+    }
+    .desc {
+      color: #6c7176;
+      text-align: justify;
+      width: 70%;
+    }
+
+    .l {
+      margin-left: 30%;
+    }
+    .r {
+      margin-right: 30%;
+    }
+
+    p {
+      margin: 15px 0 15px 0;
+      font-family: $font-open;
+      font-size: 13px;
+    }
   }
 }
