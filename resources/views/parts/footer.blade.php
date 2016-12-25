@@ -37,9 +37,8 @@
         </div>
         <div class="right">
             <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
-            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
-            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
-            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+            <p><a href="#"><i class="fa fa-vk" id="vk"  aria-hidden="true"></i></a></p>
+            <p><a href="#"><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a></p>
         </div>
     </footer>
 </section>
