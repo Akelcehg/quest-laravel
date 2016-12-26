@@ -116,6 +116,7 @@ header nav ul a:hover {
 @media screen and (max-width: 700px) {
   header nav ul.responsive {
     position: relative;
+    border-bottom: 2px solid #4c4e51;
   }
   header nav ul.responsive li.icon {
     position: absolute;
@@ -128,7 +129,7 @@ header nav ul a:hover {
   }
   header nav ul.responsive li a {
     display: block;
-    text-align: left;
+    text-align: center;
   }
 }
 

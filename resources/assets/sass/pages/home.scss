@@ -8,6 +8,7 @@ $coral: #fb383c;
 section.intro {
   background-color: $section_bg;
   height: 450px;
+  width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -28,6 +29,7 @@ section.intro {
 section.tasks {
   background: #090c0e url("../img/circle.png") no-repeat center;
   height: 450px;
+  width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
