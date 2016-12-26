@@ -160,6 +160,12 @@ section.statistics {
       box-sizing: border-box;
       border-left: $border-width solid $border_color;
       border-right: $border-width solid $border_color;
+      @media screen and (max-width: 700px) {
+        border-left: none;
+        border-right: none;
+        border-top: $border-width solid $border_color;
+        border-bottom: $border-width solid $border_color;
+      }
     }
   }
 

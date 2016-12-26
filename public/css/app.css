@@ -330,6 +330,12 @@ body {
   float: left;
 }
 
+@media screen and (max-width: 700px) {
+  .one-third {
+    width: 100%;
+  }
+}
+
 section.white {
   background-color: #ebf2f6;
   height: 180px;
@@ -377,6 +383,12 @@ section.white p i {
 .half {
   width: 50%;
   float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .half {
+    width: 100%;
+  }
 }
 
 body::-webkit-scrollbar {

@@ -187,4 +187,13 @@ section.statistics .wrap .bordered {
   border-right: 1px solid #4c4e51;
 }
 
+@media screen and (max-width: 700px) {
+  section.statistics .wrap .bordered {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #4c4e51;
+    border-bottom: 1px solid #4c4e51;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */

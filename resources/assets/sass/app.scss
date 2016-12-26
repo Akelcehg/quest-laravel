@@ -22,6 +22,9 @@ body {
 .one-third {
   width: 33.33333333333333%;
   float: left;
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
 
 section.white {
@@ -71,6 +74,9 @@ section.white {
 .half {
   width: 50%;
   float: left;
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
 }
 
 body::-webkit-scrollbar {
