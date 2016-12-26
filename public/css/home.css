@@ -46,7 +46,7 @@ section.tasks {
 }
 
 section.tasks .heading p {
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 section.tasks .heading p i {
@@ -60,7 +60,7 @@ section.tasks .heading p i {
 
 section.tasks .heading h2 {
   color: white;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 section.tasks .section-content {
