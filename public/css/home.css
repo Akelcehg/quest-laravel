@@ -51,14 +51,35 @@ section.tasks .left-side {
   float: left;
 }
 
+@media screen and (max-width: 700px) {
+  section.tasks .left-side {
+    width: 100%;
+  }
+}
+
 section.tasks .right-side {
   width: 43%;
   float: left;
 }
 
+@media screen and (max-width: 700px) {
+  section.tasks .right-side {
+    width: 100%;
+  }
+}
+
 section.tasks .mid {
   width: 14%;
   float: left;
+}
+
+@media screen and (max-width: 700px) {
+  section.tasks .mid {
+    width: 100%;
+  }
+  section.tasks .mid img {
+    height: 100px;
+  }
 }
 
 section.tasks .task-container .heading {
@@ -77,18 +98,44 @@ section.tasks .task-container .desc {
   width: 70%;
 }
 
+@media screen and (max-width: 700px) {
+  section.tasks .task-container .desc {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 section.tasks .task-container .l {
   margin-left: 30%;
+}
+
+@media screen and (max-width: 700px) {
+  section.tasks .task-container .l {
+    margin-left: 0;
+  }
 }
 
 section.tasks .task-container .r {
   margin-right: 30%;
 }
 
+@media screen and (max-width: 700px) {
+  section.tasks .task-container .r {
+    margin-right: 0;
+  }
+}
+
 section.tasks .task-container p {
   margin: 15px 0 15px 0;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
+}
+
+@media screen and (max-width: 700px) {
+  section.tasks .task-container p {
+    margin: 10px 0 10px 0;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */
