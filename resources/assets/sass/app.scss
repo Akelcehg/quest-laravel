@@ -16,7 +16,8 @@ $coral: #fb383c;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
 }
 
 .one-third {
@@ -35,7 +36,7 @@ section.white {
   align-items: center;
 
   .heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 25px;
     //padding-top: 30px;
   }
@@ -62,7 +63,7 @@ section.white {
 
 .quest-button {
   text-decoration: none;
-  font-family: Montserrat, sans-serif;
+  font-family: Fira Sans, sans-serif;
   border: none;
   font-size: 13px;
   color: white;

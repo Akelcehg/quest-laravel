@@ -355,7 +355,8 @@ header .menu-dropdown .icon {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
 }
 
 .one-third {
@@ -380,7 +381,7 @@ section.white {
 }
 
 section.white .heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 25px;
 }
 
@@ -404,7 +405,7 @@ section.white p i {
 
 .quest-button {
   text-decoration: none;
-  font-family: Montserrat, sans-serif;
+  font-family: Fira Sans, sans-serif;
   border: none;
   font-size: 13px;
   color: white;

@@ -1,5 +1,5 @@
 $section_bg: #1f2225;
-$font-monster: 'Montserrat', sans-serif;
+$font-fira: 'Fira Sans', sans-serif;
 $font-open: 'Open Sans', sans-serif;
 $black_bg: #1f2225;
 $border_color: #4c4e51;
@@ -7,7 +7,7 @@ $coral: #fb383c;
 $border_width: 1px;
 
 .layer {
-  background-color: rgba(12, 16, 19, 0.9);
+  background-color: rgba(31, 34, 37, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -31,9 +31,10 @@ section.intro {
   }
 
   h1.heading {
+    font-weight: 500;
     font-size: 40px;
     color: white;
-    font-family: $font-monster;
+    font-family: $font-fira;
     margin-bottom: 20px;
   }
 }
@@ -91,7 +92,7 @@ section.tasks {
     .heading {
       color: white;
       font-size: 16px;
-      font-family: $font-monster;
+      font-family: $font-fira;
     }
     .task-number {
       color: $coral;

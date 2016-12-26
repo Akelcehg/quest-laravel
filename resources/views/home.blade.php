@@ -11,7 +11,7 @@
         </div>
         <div class="section-content">
 
-            <h1 class="heading">TRY TO FIND OUT FOR 60 MINUTES</h1>
+            <h1 class="heading">ВЫБРАТЬСЯ ЗА 60 МИНУТ</h1>
             <a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>
         </div>
     </section>
@@ -95,23 +95,12 @@
                     <img src="/img/quests/1.jpg">
                 </div>
             </div>
-            <div class="half quest-desc">
-                <div class="wrap">
-                    <div class="layer"></div>
-                    <div class="text">dasdas</div>
-                    <img src="/img/quests/2.jpg">
-                </div>
-            </div>
+
+            <div class="half">2</div>
             <div class="half"><img src="/img/quests/2.jpg"></div>
 
             <div class="half"><img src="/img/quests/3.jpg"></div>
-            <div class="half quest-desc">
-                <div class="wrap">
-                    <div class="layer"></div>
-                    <div class="text">dasdas</div>
-                    <img src="/img/quests/3.jpg">
-                </div>
-            </div>
+            <div class="half">3</div>
         </div>
 
     </section>
