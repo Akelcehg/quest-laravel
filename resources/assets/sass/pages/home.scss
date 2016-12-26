@@ -16,7 +16,7 @@ $border_width: 1px;
 }
 
 section.intro {
-  background: $section_bg url("/img/backgrounds/home/door.jpg") no-repeat center;
+  background: $section_bg url("/img/backgrounds/home/door2.jpg") no-repeat center;
   position: relative;
   height: 450px;
   width: 100%;
@@ -41,11 +41,30 @@ section.intro {
 
 section.tasks {
   background: #090c0e url("../img/circle.png") no-repeat center;
-  height: 450px;
+  min-height: 400px;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
+
+  .heading {
+    p {
+      padding-top: 10px;
+      i {
+        color: white;
+        background-color: transparent;
+        padding: 10px 10px;
+        display: inline-block;
+        border-radius: 100px;
+        box-shadow: 0px 0 5px #fb383c;
+      }
+    }
+    h2 {
+      color: white;
+      margin: 10px 0 10px 0;
+    }
+  }
 
   .section-content {
     margin: 0 auto;
@@ -94,6 +113,7 @@ section.tasks {
       font-size: 16px;
       font-family: $font-fira;
     }
+
     .task-number {
       color: $coral;
 

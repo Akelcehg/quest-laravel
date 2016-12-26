@@ -18,6 +18,12 @@
 
     <section class="tasks">
         <div class="section-content">
+
+            <div class="heading">
+                <p><i class="fa fa-key" aria-hidden="true"></i></p>
+                <h2>GAME IN REALITY</h2>
+            </div>
+
             <div class="left-side">
                 <div class="task-container">
                     <p class="heading text-right">TASK 01</p>

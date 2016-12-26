@@ -8,7 +8,7 @@
 }
 
 section.intro {
-  background: #1f2225 url("/img/backgrounds/home/door.jpg") no-repeat center;
+  background: #1f2225 url("/img/backgrounds/home/door2.jpg") no-repeat center;
   position: relative;
   height: 450px;
   width: 100%;
@@ -35,13 +35,32 @@ section.intro h1.heading {
 
 section.tasks {
   background: #090c0e url("../img/circle.png") no-repeat center;
-  height: 450px;
+  min-height: 400px;
+  height: auto;
   width: 100%;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
+}
+
+section.tasks .heading p {
+  padding-top: 10px;
+}
+
+section.tasks .heading p i {
+  color: white;
+  background-color: transparent;
+  padding: 10px 10px;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: 0px 0 5px #fb383c;
+}
+
+section.tasks .heading h2 {
+  color: white;
+  margin: 10px 0 10px 0;
 }
 
 section.tasks .section-content {
