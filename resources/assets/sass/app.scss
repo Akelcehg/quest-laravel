@@ -6,6 +6,7 @@
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "partials/header";
 @import "partials/footer";
+@import "partials/quests_block";
 
 $coral: #fb383c;
 
@@ -65,4 +66,22 @@ section.white {
   padding: 10px 15px 10px 15px;
   background-color: $coral;
   border-radius: 3px;
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #090c0e;
+  outline: 1px solid #090c0e;
 }

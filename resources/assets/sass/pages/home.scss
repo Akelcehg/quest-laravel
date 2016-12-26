@@ -4,18 +4,30 @@ $font-open: 'Open Sans', sans-serif;
 $black_bg: #1f2225;
 $border_color: #4c4e51;
 $coral: #fb383c;
+$border_width: 1px;
+
+.layer {
+  background-color: rgba(31, 34, 37, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 section.intro {
-  background-color: $section_bg;
+  background: $section_bg url("/img/backgrounds/home/door.jpg") no-repeat center;
+  position: relative;
   height: 450px;
   width: 100%;
   display: flex;
   align-items: center;
   text-align: center;
-  border-bottom: 2px solid $border_color;
+  border-bottom: $border_width solid $border_color;
 
   .section-content {
     margin: 0 auto;
+    position: relative;
   }
 
   h1.heading {
@@ -70,7 +82,7 @@ section.tasks {
     float: left;
     @media screen and (max-width: 700px) {
       width: 100%;
-      img{
+      img {
         height: 100px;
       }
     }
@@ -118,4 +130,37 @@ section.tasks {
       }
     }
   }
+}
+
+section.statistics {
+
+  display: flex;
+  flex-wrap: wrap;
+  .wrap {
+    width: 100%;
+    text-align: center;
+    background-color: $section_bg;
+    .count {
+      color: white;
+      font-size: 30px;
+    }
+    .desc {
+      color: #6c7176;
+      font-size: 16px;
+    }
+    p {
+      display: inline;
+    }
+
+    .content {
+      padding: 20px 0 20px 0;
+    }
+
+    .bordered {
+      box-sizing: border-box;
+      border-left: $border-width solid $border_color;
+      border-right: $border-width solid $border_color;
+    }
+  }
+
 }

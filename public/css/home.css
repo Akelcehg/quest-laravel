@@ -1,5 +1,15 @@
+.layer {
+  background-color: rgba(31, 34, 37, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 section.intro {
-  background-color: #1f2225;
+  background: #1f2225 url("/img/backgrounds/home/door.jpg") no-repeat center;
+  position: relative;
   height: 450px;
   width: 100%;
   display: -webkit-box;
@@ -7,11 +17,12 @@ section.intro {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  border-bottom: 2px solid #4c4e51;
+  border-bottom: 1px solid #4c4e51;
 }
 
 section.intro .section-content {
   margin: 0 auto;
+  position: relative;
 }
 
 section.intro h1.heading {
@@ -138,6 +149,42 @@ section.tasks .task-container p {
     margin: 10px 0 10px 0;
     text-align: center;
   }
+}
+
+section.statistics {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.statistics .wrap {
+  width: 100%;
+  text-align: center;
+  background-color: #1f2225;
+}
+
+section.statistics .wrap .count {
+  color: white;
+  font-size: 30px;
+}
+
+section.statistics .wrap .desc {
+  color: #6c7176;
+  font-size: 16px;
+}
+
+section.statistics .wrap p {
+  display: inline;
+}
+
+section.statistics .wrap .content {
+  padding: 20px 0 20px 0;
+}
+
+section.statistics .wrap .bordered {
+  box-sizing: border-box;
+  border-left: 1px solid #4c4e51;
+  border-right: 1px solid #4c4e51;
 }
 
 /*# sourceMappingURL=home.css.map */

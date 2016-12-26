@@ -7,7 +7,10 @@
 @section('content')
 
     <section class="intro">
+        <div class="layer">
+        </div>
         <div class="section-content">
+
             <h1 class="heading">TRY TO FIND OUT FOR 60 MINUTES</h1>
             <a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>
         </div>
@@ -58,10 +61,44 @@
         </div>
     </section>
 
+    <section class="statistics">
+        <div class="wrap">
+            <div class="one-third content">
+                <p class="count">2351</p>
+                <p class="desc"> / счастивых клиентов</p>
+            </div>
+            <div class="one-third bordered content">
+                <p class="count">1158</p>
+                <p class="desc"> / вышло из комнат</p>
+            </div>
+            <div class="one-third content">
+                <p class="count">2158</p>
+                <p class="desc"> / сыграно игр</p>
+            </div>
+        </div>
+    </section>
+
     <section class="white">
         <div class="section-content">
             <p><i class="fa fa-key" aria-hidden="true"></i></p>
             <h2 class="heading">THE ROOMS</h2>
         </div>
     </section>
+
+    <section class="quests">
+        <div class="wrap">
+            <div class="half"><img src="/img/quests/1.jpg"></div>
+            <div class="half">1</div>
+            {{--</div>
+            <div class="wrap">--}}
+            <div class="half">2</div>
+            <div class="half"><img src="/img/quests/2.jpg"></div>
+            {{--</div>
+            <div class="wrap">--}}
+            <div class="half"><img src="/img/quests/3.jpg"></div>
+            <div class="half">3</div>
+        </div>
+
+    </section>
+
 @endsection

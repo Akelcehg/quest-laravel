@@ -1,7 +1,7 @@
 header {
   color: white;
   background-color: #1f2225;
-  border-bottom: 2px solid #4c4e51;
+  border-bottom: 1px solid #4c4e51;
   height: 70px;
 }
 
@@ -10,7 +10,7 @@ header .logo {
   height: 70px;
   width: 200px;
   text-align: center;
-  border-right: 2px solid #4c4e51;
+  border-right: 1px solid #4c4e51;
 }
 
 header .logo img {
@@ -106,7 +106,7 @@ header nav ul a:hover {
 
 @media screen and (max-width: 900px) {
   header nav ul {
-    border-bottom: 2px solid #4c4e51;
+    border-bottom: 1px solid #4c4e51;
   }
   header nav ul a {
     padding: 0 15px 0 15px;
@@ -116,7 +116,7 @@ header nav ul a:hover {
 @media screen and (max-width: 720px) {
   header nav ul.responsive {
     position: relative;
-    border-bottom: 2px solid #4c4e51;
+    border-bottom: 1px solid #4c4e51;
   }
   header nav ul.responsive li.icon {
     position: absolute;
@@ -134,7 +134,7 @@ header nav ul a:hover {
 }
 
 header .menu-dropdown {
-  border-left: 2px solid #4c4e51;
+  border-left: 1px solid #4c4e51;
   float: right;
   text-align: center;
   line-height: 70px;
@@ -296,6 +296,26 @@ header .menu-dropdown .icon {
   background-color: #2e3337;
 }
 
+.quests {
+  background-color: #0c1013;
+  color: white;
+}
+
+.quests p {
+  color: #cfcfcf;
+}
+
+.quests img {
+  width: 100%;
+  height: 100%;
+}
+
+.quests .wrap {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -352,6 +372,24 @@ section.white p i {
   padding: 10px 15px 10px 15px;
   background-color: #fb383c;
   border-radius: 3px;
+}
+
+.half {
+  width: 50%;
+  float: left;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #090c0e;
+  outline: 1px solid #090c0e;
 }
 
 /*# sourceMappingURL=app.css.map */
