@@ -34,7 +34,7 @@ header .address {
   height: 70px;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1080px) {
   header .address {
     display: none;
   }
@@ -55,7 +55,7 @@ header nav ul {
   overflow: hidden;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   header nav ul {
     width: 100%;
   }
@@ -64,7 +64,7 @@ header nav ul {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   header nav ul ul.navigation.responsive {
     position: relative;
   }
@@ -104,16 +104,16 @@ header nav ul a:hover {
   color: #fb383c;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   header nav ul {
-    border-top: 2px solid #4c4e51;
+    border-bottom: 2px solid #4c4e51;
   }
   header nav ul a {
     padding: 0 15px 0 15px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   header nav ul.responsive {
     position: relative;
     border-bottom: 2px solid #4c4e51;
@@ -149,7 +149,7 @@ header .menu-dropdown .icon {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   header .menu-dropdown {
     border: none;
   }
