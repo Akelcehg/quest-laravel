@@ -57,7 +57,10 @@ section.white {
 }
 
 .quest-button {
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
   border: none;
+  font-size: 13px;
   color: white;
   padding: 10px 15px 10px 15px;
   background-color: $coral;
