@@ -9,7 +9,7 @@
     <section class="intro">
         <div class="section-content">
             <h1 class="heading">TRY TO FIND OUT FOR 60 MINUTES</h1>
-            <input type="button" class="quest-button" value="CHOSE YOUR MISSION"/>
+            <a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>
         </div>
     </section>
 
