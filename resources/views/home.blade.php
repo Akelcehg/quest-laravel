@@ -88,15 +88,30 @@
     <section class="quests">
         <div class="wrap">
             <div class="half"><img src="/img/quests/1.jpg"></div>
-            <div class="half">1</div>
-            {{--</div>
-            <div class="wrap">--}}
-            <div class="half">2</div>
+            <div class="half quest-desc">
+                <div class="wrap">
+                    <div class="layer"></div>
+                    <div class="text">dasdas</div>
+                    <img src="/img/quests/1.jpg">
+                </div>
+            </div>
+            <div class="half quest-desc">
+                <div class="wrap">
+                    <div class="layer"></div>
+                    <div class="text">dasdas</div>
+                    <img src="/img/quests/2.jpg">
+                </div>
+            </div>
             <div class="half"><img src="/img/quests/2.jpg"></div>
-            {{--</div>
-            <div class="wrap">--}}
+
             <div class="half"><img src="/img/quests/3.jpg"></div>
-            <div class="half">3</div>
+            <div class="half quest-desc">
+                <div class="wrap">
+                    <div class="layer"></div>
+                    <div class="text">dasdas</div>
+                    <img src="/img/quests/3.jpg">
+                </div>
+            </div>
         </div>
 
     </section>

@@ -297,7 +297,7 @@ header .menu-dropdown .icon {
 }
 
 .quests {
-  background-color: #0c1013;
+  background-color: transparent;
   color: white;
 }
 
@@ -314,6 +314,39 @@ header .menu-dropdown .icon {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
+}
+
+.quests .half.quest-desc {
+  /*img {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    }*/
+}
+
+.quests .half.quest-desc .wrap {
+  position: relative;
+  height: 100%;
+}
+
+.quests .half.quest-desc .wrap .layer {
+  z-index: 1;
+}
+
+.quests .half.quest-desc .wrap .text {
+  position: absolute;
+  z-index: 2;
+}
+
+.quests .half.quest-desc .wrap img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -webkit-filter: FlipH;
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 * {

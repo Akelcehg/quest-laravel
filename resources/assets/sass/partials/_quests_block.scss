@@ -1,5 +1,6 @@
 .quests {
-  background-color: #0c1013;
+  //background-color: #0c1013;
+  background-color: transparent;
   color: white;
   p {
     color: #cfcfcf;
@@ -11,6 +12,41 @@
   .wrap {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .half.quest-desc {
+
+    .wrap {
+      position: relative;
+      height: 100%;
+      //width: 100%;
+      .layer {
+        z-index: 1;
+      }
+
+      .text {
+        position: absolute;
+        z-index: 2;
+      }
+
+      img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+      }
+    }
+
+    /*img {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    }*/
   }
 
 }
