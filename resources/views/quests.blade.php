@@ -6,7 +6,7 @@
 
 @section('content')
 
-    @include('parts.header',['background_image' => '/img/backgrounds/quests/maze.jpg'])
+    @include('parts.header',['background_image' => '/img/backgrounds/quests/maze.jpg','heading'=>'ВЫБЕРИТЕ ОДИН ИЗ КВЕСТОВ'])
 
     <section class="white">
         <div class="section-content">
