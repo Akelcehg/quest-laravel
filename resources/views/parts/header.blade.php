@@ -14,15 +14,11 @@
 
     <nav>
         <ul class="nav-menu" id="navigation">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ROOMS</a></li>
-            <li><a href="#">PAGES</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-            {{--<li class="icon">
-                <a href="javascript:void(0);" onclick="setNav()">&#9776;</a>
-            </li>--}}
+            <li><a href="/">ГЛАВНАЯ</a></li>
+            <li>{{Html::link('/quests','КВЕСТЫ')}}</li>
+            <li>{{Html::link('/franchise','ФРАНШИЗА')}}</li>
+            <li>{{Html::link('/about','О НАС')}}</li>
+            <li>{{Html::link('/contact','КОНТАКТЫ')}}</li>
         </ul>
     </nav>
 
