@@ -1,6 +1,6 @@
-<div style="width: 100%; height: 100%; background: url('/img/backgrounds/quests/witch.jpg') no-repeat center; background-color: black;
-box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.9);
-">
+<div style="width: 100%; height: 100%; background: url({{$background_image}}) no-repeat center; background-color: black;
+        box-shadow: inset 0px 0px 100px 100px rgba(0,0,0,0.9);
+        ">
     <header>
         <div class="logo">
             <img src="/img/logo.png"/>
@@ -27,8 +27,8 @@ box-shadow: inset 0px 0px 30px 30px rgba(0,0,0,0.9);
 
     </header>
     <section class="intro">
-        <div class="layer">
-        </div>
+        {{-- <div class="layer">
+         </div>--}}
         <div class="section-content">
 
             <h1 class="heading">ВЫБРАТЬСЯ ЗА 60 МИНУТ</h1>

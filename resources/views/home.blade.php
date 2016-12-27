@@ -5,7 +5,7 @@
 @endpush
 
 @section('content')
-
+    @include('parts.header',['background_image' => '/img/backgrounds/home/v2.jpg'])
     {{--<section class="intro">
         <div class="layer">
         </div>

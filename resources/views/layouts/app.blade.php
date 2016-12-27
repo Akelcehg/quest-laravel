@@ -27,7 +27,7 @@
 
 <body>
 <div id="app">
-    @include('parts.header')
+    {{--@include('parts.header')--}}
 
     @yield('content')
 
