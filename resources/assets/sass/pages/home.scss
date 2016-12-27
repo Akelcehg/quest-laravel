@@ -7,7 +7,7 @@ $coral: #fb383c;
 $border_width: 1px;
 
 .layer {
-  background-color: rgba(31, 34, 37, 0.9);
+  background-color: rgba(31, 34, 37, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -16,7 +16,7 @@ $border_width: 1px;
 }
 
 section.intro {
-  background: $section_bg url("/img/backgrounds/home/door2.jpg") no-repeat center;
+  //background: $section_bg url("/img/backgrounds/home/door2.jpg") no-repeat center;
   position: relative;
   height: 450px;
   width: 100%;

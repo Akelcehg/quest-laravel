@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <section class="intro">
+    {{--<section class="intro">
         <div class="layer">
         </div>
         <div class="section-content">
@@ -14,7 +14,7 @@
             <h1 class="heading">ВЫБРАТЬСЯ ЗА 60 МИНУТ</h1>
             <a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>
         </div>
-    </section>
+    </section>--}}
 
     <section class="tasks">
         <div class="section-content">

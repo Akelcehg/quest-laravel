@@ -6,7 +6,8 @@ $border_width: 1px;
 
 header {
   color: white;
-  background-color: $black_bg;
+  //background-color: $black_bg;
+  background-color: rgba(31, 34, 37, 0.8);
   border-bottom: $border_width solid $border_color;
   height: $header_height;
 
@@ -46,7 +47,7 @@ header {
     font-size: 13px;
 
     ul {
-      background-color: $black_bg;
+      //background-color: $black_bg;
       float: right;
       list-style-type: none;
       display: inline-block;
