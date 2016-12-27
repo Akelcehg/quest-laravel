@@ -5,7 +5,10 @@
 @endpush
 
 @section('content')
-    @include('parts.header',['background_image' => '/img/backgrounds/home/v2.jpg','heading'=>'ВЫБРАТЬСЯ ЗА 60 МИНУТ'])
+    @include('parts.header',[
+    'background_image' => '/img/backgrounds/home/v2.jpg',
+    'heading'=>'ВЫБРАТЬСЯ ЗА 60 МИНУТ',
+    ])
     {{--<section class="intro">
         <div class="layer">
         </div>

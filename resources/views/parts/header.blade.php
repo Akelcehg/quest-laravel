@@ -32,7 +32,7 @@
         <div class="section-content">
 
             <h1 class="heading">{{ $heading }}</h1>
-            <a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>
+            {{--<a href="#" type="button" class="quest-button">CHOSE YOUR MISSION</a>--}}
         </div>
     </section>
 </div>
