@@ -15,9 +15,13 @@ require('laravel-elixir-vue-2');
 
 elixir(function(mix) {
     mix.sass([
-        'app.scss'
+        'app.scss',
+        '/pages/about.scss',
+        '/pages/quests.scss'
     ], 'public/css')
-    .sass('pages/home.scss','public/css/home.css');
+    .sass('pages/home.scss','public/css/home.css')
+    .sass('pages/about.scss','public/css/about.css')
+    .sass('pages/quests.scss','public/css/quests.css');
 
 });
 

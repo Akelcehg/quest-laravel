@@ -1,0 +1,30 @@
+$section_bg: #1f2225;
+$font-fira: 'Fira Sans', sans-serif;
+/*$font-open: 'Open Sans', sans-serif;
+$black_bg: #1f2225;*/
+$border_color: #4c4e51;
+//$coral: #fb383c;
+$border_width: 1px;
+
+section.intro {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: $border_width solid $border_color;
+
+  .section-content {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  h1.heading {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    font-family: $font-fira;
+    margin-bottom: 20px;
+  }
+}
