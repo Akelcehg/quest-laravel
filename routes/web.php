@@ -19,3 +19,4 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/quests', 'QuestsController@index');
 Route::get('/about', 'AboutController@index');
+Route::get('/franchise', 'FranchiseController@index');
