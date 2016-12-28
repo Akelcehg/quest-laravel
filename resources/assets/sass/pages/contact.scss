@@ -1,0 +1,92 @@
+#map {
+  margin-top: 50px;
+  height: 400px;
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 70%;
+
+  .contact-heading {
+    font-size: 24px;
+  }
+
+  .half {
+    margin-top: 50px;
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+    }
+
+    .info {
+      padding: 25px;
+      s
+      .heading {
+        .marker {
+          width: 15%;
+          float: left;
+        }
+        .text {
+          width: 85%;
+          float: left;
+        }
+        p {
+          display: inline;
+          font-size: 16px;
+          padding-top: 15px;
+        }
+      }
+
+    }
+
+  }
+}
+
+i.fa-1_5x {
+  font-size: 1.5em;
+}
+
+.contact-info i {
+  /*font-size: 24px;*/
+  color: #fc7073;
+}
+
+.contact-info p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact-form {
+  .form-group {
+    textarea {
+      resize: none;
+      border: 1px solid #dcdee0;
+      padding: 15px 5px 15px 5px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    input {
+      padding: 15px 5px 15px 5px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 0;
+      border: 1px solid white;
+      box-shadow: none;
+      border-bottom: 1px solid #dcdee0;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  .quest-button {
+    margin-top: 25px;
+  }
+}

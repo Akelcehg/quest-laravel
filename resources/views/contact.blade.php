@@ -32,8 +32,43 @@
         </div>
 
         <div class="half">
-            12321
-        </div>
+            <div class="info">
+                <div class="heading">
+                    <div class="marker">
+                        <p><i class="fa fa-map-marker fa-1_5x" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="text">
+                        <p>Address:</p>
+                    </div>
+                </div>
+                <p>654 DASdasd gerge rger, nf 15235</p>
+            </div>
+            <div class="info">
+                <div class="heading">
+                    <div class="marker">
+                        <p><i class="fa fa-envelope-o fa-1_5x" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="text">
+                        <p>EMAIL:</p>
+                    </div>
+                </div>
+                <p>odajfewiojoi@gmail.com</p>
+            </div>
+            <div class="info">
+                <div class="heading">
+                    <div class="marker">
+                        <p><i class="fa fa-phone fa-1_5x" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="text">
+                        <p>Phone:</p>
+                    </div>
+                </div>
+                <p>8 800 555 0600</p>
+            </div>
+
     </section>
     <div id="map"></div>
 

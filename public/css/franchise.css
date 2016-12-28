@@ -1,0 +1,32 @@
+p.list-item {
+  text-indent: 3em;
+  /*background: none;
+  margin: auto;*/
+  /*border: none;*/
+  line-height: 150%;
+  /*padding: 5px;*/
+  color: #1f2225;
+  font-size: 16px;
+}
+
+div.list-container {
+  /*margin: auto;*/
+  /*line-height: 150%;*/
+  padding: 15px;
+  /*color: #6c7176;*/
+  font-size: 16px;
+}
+
+p.list-heading {
+  text-indent: 3em;
+  text-decoration: underline;
+  /*background: none;
+  margin: auto;*/
+  /*border: none;*/
+  line-height: 150%;
+  padding: 15px;
+  color: #1f2225;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=franchise.css.map */

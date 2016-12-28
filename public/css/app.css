@@ -774,6 +774,29 @@ p.list-heading {
   }
 }
 
+.contact-info .half .info {
+  padding: 25px;
+}
+
+.contact-info .half .info s
+.heading .marker {
+  width: 15%;
+  float: left;
+}
+
+.contact-info .half .info s
+.heading .text {
+  width: 85%;
+  float: left;
+}
+
+.contact-info .half .info s
+.heading p {
+  display: inline;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
 i.fa-1_5x {
   font-size: 1.5em;
 }
@@ -794,7 +817,7 @@ i.fa-1_5x {
   padding: 15px 5px 15px 5px;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 16px;
   border-radius: 0;
   box-shadow: none;
@@ -804,7 +827,7 @@ i.fa-1_5x {
   padding: 15px 5px 15px 5px;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 16px;
   border-radius: 0;
   border: 1px solid white;
