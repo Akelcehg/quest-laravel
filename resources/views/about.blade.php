@@ -7,41 +7,13 @@
 @section('content')
 
     @include('parts.header',[
-    'background_image' => '/img/backgrounds/quests/maze.jpg',
-    'heading'=>'КВЕСТХАУС - ЭТО КВЕСТЫ В РЕАЛЬНОСТИ И ИГРОВОЕ ПРОСТРАНСТВО'
+    'background_image' => '/img/backgrounds/about/logo.png',
+    'heading'=>''
     ])
-    {{--
-        <section class="white">
-            <div class="section-content">
-                <p><i class="fa fa-key" aria-hidden="true"></i></p>
-                <h2 class="heading">THE ROOMS</h2>
-            </div>
-        </section>
 
-        <section class="quests">
-            <div class="wrap">
-                <div class="half"><img src="/img/quests/1.jpg"></div>
-                <div class="half quest-desc">
-                    <div class="wrap">
-                        <div class="layer"></div>
-                        <div class="text">dasdas</div>
-                        <img src="/img/quests/1.jpg">
-                    </div>
-                </div>
-
-                <div class="half">2</div>
-                <div class="half"><img src="/img/quests/2.jpg"></div>
-
-                <div class="half"><img src="/img/quests/3.jpg"></div>
-                <div class="half">3</div>
-            </div>
-
-        </section>--}}
-    {{--<section>--}}
-
-
-    {{--<h3 class="text-center">Квестхаус - это квесты в реальности и игровое пространство</h3>--}}
-
+    <section style="margin: 20px 0 20px 0;">
+        <h1 style="text-align: center;">КВЕСТХАУС - ЭТО КВЕСТЫ В РЕАЛЬНОСТИ И ИГРОВОЕ ПРОСТРАНСТВО</h1>
+    </section>
     <section style="width: 80%; margin: 0 auto; display: flex; background-color: white;">
 
         <ul class="timeline">
