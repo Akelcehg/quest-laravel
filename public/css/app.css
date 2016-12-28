@@ -746,4 +746,78 @@ p.list-heading {
   font-size: 16px;
 }
 
+#map {
+  margin-top: 50px;
+  height: 400px;
+  width: 100%;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 70%;
+}
+
+.contact-info .contact-heading {
+  font-size: 24px;
+}
+
+.contact-info .half {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-info .half {
+    width: 100%;
+  }
+}
+
+i.fa-1_5x {
+  font-size: 1.5em;
+}
+
+.contact-info i {
+  /*font-size: 24px;*/
+  color: #fc7073;
+}
+
+.contact-info p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact-form .form-group textarea {
+  resize: none;
+  border: 1px solid #dcdee0;
+  padding: 15px 5px 15px 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.contact-form .form-group input {
+  padding: 15px 5px 15px 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 16px;
+  border-radius: 0;
+  border: 1px solid white;
+  box-shadow: none;
+  border-bottom: 1px solid #dcdee0;
+}
+
+.contact-form .form-group input:focus {
+  outline: none;
+}
+
+.contact-form .quest-button {
+  margin-top: 25px;
+}
+
 /*# sourceMappingURL=app.css.map */

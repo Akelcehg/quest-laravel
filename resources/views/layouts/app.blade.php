@@ -37,5 +37,6 @@
 <!-- Scripts -->
 {{--<script src="/js/app.js"></script>--}}
 <script src="/js/basic.js"></script>
+@stack('scripts')
 </body>
 </html>

@@ -18,17 +18,21 @@ elixir(function (mix) {
         'app.scss',
         '/pages/about.scss',
         '/pages/quests.scss',
-        '/pages/franchise.scss'
+        '/pages/franchise.scss',
+        '/pages/contact.scss'
     ], 'public/css')
         .sass('pages/home.scss', 'public/css/home.css')
         .sass('pages/about.scss', 'public/css/about.css')
         .sass('pages/quests.scss', 'public/css/quests.css')
+        .sass('pages/contact.scss', 'public/css/contact.css')
         .sass('pages/franchise.scss', 'public/css/franchise.css');
 
 });
 
 elixir(function (mix) {
     mix.webpack('basic.js', 'public/js/basic.js');
+
+    mix.scripts('map.js', 'public/js/map.js');
 });
 
 /*
