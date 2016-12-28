@@ -7,7 +7,7 @@
 @section('content')
 
     @include('parts.header',[
-    'background_image' => '/img/backgrounds/contact/city.jpg',
+    'background_image' => '/img/backgrounds/about/logo.png',
     'heading'=>'КОНТАКТЫ'
     ])
 
