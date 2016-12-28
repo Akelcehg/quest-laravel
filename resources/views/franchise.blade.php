@@ -13,7 +13,7 @@
 
     <section style="background-color: white; padding: 15px 0 15px 0;">
 
-        <h3 style="font-size: 40px; color:#fb383c; text-align: center;margin-bottom: 0;">Хочешь
+        <h3 style="font-size: 35px; color:#fb383c; text-align: center;margin-bottom: 0;">Хочешь
             получать
             от 70 тыс грн в месяц?</h3>
 
@@ -22,22 +22,22 @@
             стране.</h3>
 
 
-        <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
+        <div class="list-container">
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
-
+            <p class="list-heading">
                 Что такое квест?
-
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
-                Эскейп рум или квест- это новый вид развлечений. Где команда от 2-4 человек попадают в стилизованную
+
+            <p class="list-item">Эскейп рум или квест- это новый вид развлечений. Где команда от 2-4 человек попадают в
+                стилизованную
                 комнату
                 из которой нужно "выбраться" за 60 минут. На первый взгляд все просто, но тут есть подвох, если
                 квест
                 посценарию подводной лодки, или кабинет злого профессора, тут только логика и командная работа
                 поможетвыбраться.
             </p>
+
 
         </div>
 
@@ -47,83 +47,79 @@
         </div>
 
 
-        <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
+        <div class="list-container">
 
-            <p style="text-indent: 3em; text-decoration: underline;
- background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
+            <p class="list-heading">
                 Почему открыть квест выгодно?
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - маленькая аренда ( квест отлично может работать в подвальном помещении)<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - маленький штат сотрудников ( от 2 человек)<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - квест работает без выходных<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - больше квестов / больше денег<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - маленький стартовый капитал по сравнению с другими сферами бизнеса<br>
             </p>
-        </div>
-        <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
-            <p style="text-indent: 3em;text-decoration: underline;
-background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
+            {{--        </div>
+                    <div class="list-container">--}}
+            <p class="list-heading">
                 Почему квест дает много денег ?
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - средний чек за 1 одну игру (60 минут) составляет 450 грн<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - загрузка от 8 до 12 игр в день с одного квеста (а дальше считай сам)<br>
             </p>
-        </div>
-        <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
-            <p style="text-indent: 3em;text-decoration: underline;
-background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
+            {{--</div>
+            <div class="list-container">--}}
+            <p class="list-heading">
                 Твои клиенты это:
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - веселая компания<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - школьники и студенты<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - влюблённые парочки<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - туристы<br>
             </p>
 
-            <p style="text-indent: 3em;text-decoration: underline;
-background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
+            <p class="list-heading">
                 Почему рынок еще пустой?
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - квест или эскейп рум только стал развиваться в Украине<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - сколько не было на данный момент открытых квестов, команда может сыграть только один раз<br>
             </p>
 
-            <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <p class="list-item">
                 - сфера развлечений всегда была и остается прибыльный<br>
             </p>
         </div>
@@ -136,56 +132,55 @@ background: none;margin: auto; border: none; line-height: 150%; padding: 15px;co
                 </h3>
             </div>
 
-            <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
-                <p style="text-indent: 3em;text-decoration: underline;
-background: none;margin: auto; border: none; line-height: 150%; padding: 15px;color: #6c7176; font-size: 16px;">
+            <div class="list-container">
+                <p class="list-heading">
                     В нашей команде работают
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     - 4 сценариста<br>
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     - 2 электронщика<br>
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     - 2 дизайнера<br>
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     - 1 театральный декоратор<br>
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     - 1 психолог<br>
                 </p>
 
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+                <p class="list-item">
                     И еще много людей которые остаются за кадром<br>
                 </p>
 
             </div>
-            <div style="margin: auto; line-height: 150%; padding: 15px; color: #6c7176; font-size: 16px;">
-                <p style="text-indent: 3em;background: none;margin: auto; border: none; line-height: 150%; padding: 5px;color: #6c7176; font-size: 16px;">
+            <div class="list-container">
+                <p class="list-item">
                     На данный момент у нас качественные и прибыльные квесты в Одессе.
                     И готовятся еще такого же качества в других городах Украины.
                     Узнаваемый бренд не только в нашем городе но и уже в Украине.
                 </p>
             </div>
 
-           {{-- <div class="container">
-                <h3 style="text-align: center; color:#fb383c; font-size: 20px;">
-                    Если мы тебя еще не убедили у нас есть еще один большой плюс!
-                </h3>
-            </div>--}}
+            {{-- <div class="container">
+                 <h3 style="text-align: center; color:#fb383c; font-size: 20px;">
+                     Если мы тебя еще не убедили у нас есть еще один большой плюс!
+                 </h3>
+             </div>--}}
 
-           {{-- <div class="container">
-                <h3 style="text-align: center; color:#fb383c; font-size: 20px;">
-                    До конца осени действуют скидки для всех, кто желает войти в семью Квестхауса.
-                </h3>
-            </div>--}}
+            {{-- <div class="container">
+                 <h3 style="text-align: center; color:#fb383c; font-size: 20px;">
+                     До конца осени действуют скидки для всех, кто желает войти в семью Квестхауса.
+                 </h3>
+             </div>--}}
 
         </div>
 
