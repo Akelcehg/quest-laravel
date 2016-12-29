@@ -14,19 +14,97 @@
     flex-wrap: wrap;
   }
 
-  .half.quest-desc {
+  .quest-half.quest-desc {
 
     .wrap {
       position: relative;
       height: 100%;
-      //width: 100%;
+
+      @media screen and (max-width: 1000px) {
+        background-color: #0c1013;
+      }
+
       .layer {
         z-index: 1;
+        @media screen and (max-width: 1000px) {
+          display: none;
+        }
       }
 
       .text {
         position: absolute;
         z-index: 2;
+        display: flex;
+        margin: 25px 0 25px 25px;
+        //flex-wrap: wrap;
+        //display: block;
+        //overflow: auto;
+        @media screen and (max-width: 1000px) {
+          position: relative;
+        }
+        h3 {
+          font-size: 18px;
+          margin-bottom: 5%;
+          /*@media screen and (max-width: 500px) {
+            font-size: 14px;
+          }*/
+        }
+
+        p {
+          //font-size: 16px;
+          font-size: 1vw;
+          //padding: 10px;
+          @media screen and (max-width: 1000px) {
+            font-size: 14px;
+          }
+        }
+
+        .info {
+          width: 70%;
+          height: 100%;
+          //display: flex;
+          .additional-info {
+            margin-top: 15px;
+            p {
+              display: inline;
+              margin-right: 25px;
+            }
+          }
+
+          .button-wrap {
+            display: flex;
+            .quest-button{
+              margin-top: 15px;
+            }
+          }
+        }
+        .price {
+          display: flex;
+          justify-content: center;
+          width: 30%;
+
+          .price-circle {
+            //margin-top: 25%;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 1px solid white;
+            display: flex;
+            justify-content: center;
+            p {
+              margin: auto;
+            }
+            @media screen and (max-width: 500px) {
+              width: 80px;
+              height: 80px;
+            }
+            @media screen and (max-width: 1000px) {
+              width: 100px;
+              height: 100px;
+            }
+          }
+
+        }
       }
 
       img {
@@ -36,17 +114,19 @@
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
+        @media screen and (max-width: 1000px) {
+          display: none;
+        }
       }
     }
-
-    /*img {
-      -moz-transform: scaleX(-1);
-      -o-transform: scaleX(-1);
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-      filter: FlipH;
-      -ms-filter: "FlipH";
-    }*/
   }
 
+}
+
+.quest-half {
+  width: 50%;
+  float: left;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 }
