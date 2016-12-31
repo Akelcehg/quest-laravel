@@ -104,7 +104,7 @@ header nav ul a:hover {
 
 @media screen and (max-width: 900px) {
   header nav ul {
-    border-bottom: 2px solid rgba(76, 78, 81, 0.31);
+    /*border-bottom: $border_width solid $border_color;*/
   }
   header nav ul a {
     padding: 0 15px 0 15px;
@@ -128,6 +128,7 @@ header nav ul a:hover {
   header nav ul.responsive li a {
     display: block;
     text-align: center;
+    background-color: #1f2225;
   }
 }
 
@@ -818,6 +819,57 @@ section.intro h1.heading {
   color: white;
   font-family: "Fira Sans", sans-serif;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  section.intro {
+    display: none;
+  }
+}
+
+.quest-bg #mobile {
+  display: none;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .quest-bg #mobile {
+    display: block;
+  }
+}
+
+.quest-bg #mobile img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.quest-bg #desktop {
+  display: block;
+  position: absolute;
+  top: 0px;
+  display: block;
+  width: 100%;
+  z-index: -1;
+  height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .quest-bg #desktop {
+    display: none;
+  }
+}
+
+.quest-bg header {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .quest-bg header {
+    background-color: #1f2225;
+  }
 }
 
 p.list-item {

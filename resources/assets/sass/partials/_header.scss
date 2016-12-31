@@ -6,8 +6,6 @@ $border_width: 2px;
 
 header {
   color: white;
-  //background-color: $black_bg;
-  //background-color: rgba(31, 34, 37, 0.8);
   border-bottom: $border_width solid $border_color;
   height: $header_height;
 
@@ -103,7 +101,7 @@ header {
         a {
           padding: 0 15px 0 15px;
         }
-        border-bottom: $border_width solid $border_color;
+        /*border-bottom: $border_width solid $border_color;*/
       }
     }
 
@@ -124,6 +122,7 @@ header {
       ul.responsive li a {
         display: block;
         text-align: center;
+        background-color: $black_bg;
       }
     }
 

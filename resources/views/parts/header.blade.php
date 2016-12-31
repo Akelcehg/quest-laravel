@@ -1,5 +1,6 @@
 <div style="width: 100%; height: 100%; background: url({{$background_image}}) no-repeat center; background-color: black;
-        box-shadow: inset 0px 0px 100px 100px rgba(0,0,0,0.9);
+        /*box-shadow: inset 0px 0px 100px 100px rgba(0,0,0,0.9);*/
+        box-shadow: inset 0px 0px 100px 100px rgba(0,0,0,0.8);
         ">
     <header>
         <div class="logo">

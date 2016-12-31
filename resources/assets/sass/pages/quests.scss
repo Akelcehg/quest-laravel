@@ -27,4 +27,50 @@ section.intro {
     font-family: $font-fira;
     margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+}
+
+.quest-bg {
+
+  #mobile {
+    display: none;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      opacity: 0;
+    }
+  }
+
+  #desktop {
+    display: block;
+    position: absolute;
+    top: 0px;
+    display: block;
+    width: 100%;
+    z-index: -1;
+    height: 650px;
+
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, .3);
+    @media screen and (max-width: 768px) {
+      background-color: #1f2225;
+    }
+  }
+
 }
