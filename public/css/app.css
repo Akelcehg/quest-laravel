@@ -872,6 +872,11 @@ section.intro h1.heading {
   }
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 p.list-item {
   text-indent: 3em;
   /*background: none;

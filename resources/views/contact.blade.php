@@ -68,6 +68,7 @@
                 </div>
                 <p>8 800 555 0600</p>
             </div>
+        </div>
 
     </section>
     <div id="map"></div>
