@@ -30,20 +30,17 @@
   padding: 25px;
 }
 
-.contact-info .half .info s
-.heading .marker {
+.contact-info .half .info .heading .marker {
   width: 15%;
   float: left;
 }
 
-.contact-info .half .info s
-.heading .text {
+.contact-info .half .info .heading .text {
   width: 85%;
   float: left;
 }
 
-.contact-info .half .info s
-.heading p {
+.contact-info .half .info .heading p {
   display: inline;
   font-size: 16px;
   padding-top: 15px;
