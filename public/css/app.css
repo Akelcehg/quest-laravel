@@ -518,6 +518,10 @@ section.white p i {
   border-radius: 3px;
 }
 
+.quest-button.black {
+  background-color: #1f2225;
+}
+
 .half {
   width: 50%;
   float: left;

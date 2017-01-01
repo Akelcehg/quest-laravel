@@ -73,8 +73,13 @@
             </div>
             <div class="date-wrap" style="width: 100%; display: flex; height: auto; flex-wrap: wrap;">
                 @for($i = 1; $i <= 31; $i++)
-                    <div class="time-container" style="width: 14.28571428571429%; border: 1px solid red; box-sizing: border-box;">
-                        <p class="day">{{$i}}</p>
+                    <div class="time-container"
+                         style="width: 14.28571428571429%; box-sizing: border-box; padding: 5px;">
+                        <div style="border: 3px solid rgba(76,78,81,0.3); height: auto;padding: 20px 0 15px 0;text-align: center;">
+                            <p class="day" style="font-size: 20px;">{{$i}}</p>
+                            <p class="day" style="font-size: 14px;">Доступно 8</p>
+                            <a href="#" class="quest-button black">БРОНИРОВАТЬ</a>
+                        </div>
                     </div>
                 @endfor
             </div>

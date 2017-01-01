@@ -70,6 +70,10 @@ section.white {
   padding: 10px 15px 10px 15px;
   background-color: $coral;
   border-radius: 3px;
+
+  &.black {
+    background-color: #1f2225;
+  }
 }
 
 .half {
