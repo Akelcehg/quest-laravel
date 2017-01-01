@@ -71,7 +71,7 @@
         </div>
 
     </section>
-    <div id="map"></div>
+    <div class="contact-map" id="map"></div>
 
 
 

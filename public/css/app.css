@@ -872,7 +872,7 @@ section.intro h1.heading {
   }
 }
 
-#map {
+.quest-map {
   height: 400px;
   width: 100%;
 }
@@ -908,7 +908,7 @@ p.list-heading {
   font-size: 16px;
 }
 
-#map {
+.contact-map {
   margin-top: 50px;
   height: 400px;
   width: 100%;

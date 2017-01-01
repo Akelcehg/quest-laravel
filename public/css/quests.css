@@ -76,7 +76,7 @@ section.intro h1.heading {
   }
 }
 
-#map {
+.quest-map {
   height: 400px;
   width: 100%;
 }
