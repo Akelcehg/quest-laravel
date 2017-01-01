@@ -8,7 +8,7 @@
 
     @include('parts.quest_header',['background_image' => '/img/quests/1.jpg','heading'=>'Название квеста'])
 
-    <section class="white" style="height: auto; padding: 25px 0 25px 0;">
+    <section class="gray" style="height: auto; padding: 25px 0 25px 0;">
         <div class="quest-description" style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
 
             <div style="width: 65%;">

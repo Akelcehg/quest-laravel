@@ -28,8 +28,42 @@ body {
   }
 }
 
-section.white {
+section.gray {
   background-color: #ebf2f6;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    //padding-top: 30px;
+  }
+  .section-content {
+    margin: 0 auto;
+  }
+  p {
+    padding-bottom: 20px;
+    text-align: center;
+    i {
+      color: white;
+      background-color: $coral;
+      padding: 10px 10px;
+      display: inline-block;
+      -moz-border-radius: 100px;
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+      -moz-box-shadow: 0px 0px 2px $coral;
+      -webkit-box-shadow: 0px 0px 2px $coral;
+      box-shadow: 0px 0px 2px $coral;
+    }
+  }
+}
+
+section.white {
+  //background-color: #ebf2f6;
+  background-color: white;
   height: 180px;
   width: 100%;
   display: flex;
