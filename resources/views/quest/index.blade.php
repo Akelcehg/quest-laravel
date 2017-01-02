@@ -70,7 +70,7 @@
                 <a class="arrow" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
 
-            <div class="days-name-row" style="width: 100%; display: flex; text-align: center; margin: 20px 0 20px 0;">
+            {{--<div class="days-name-row" style="width: 100%; display: flex; text-align: center; margin: 20px 0 20px 0;">
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
@@ -78,15 +78,17 @@
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-            </div>
-            <div class="date-wrap" style="width: 100%; display: flex; height: auto; flex-wrap: wrap;">
+            </div>--}}
+            <div class="date-wrap"
+                 style="width: 100%; margin-top: 20px; display: flex; height: auto; flex-wrap: wrap;  justify-content: center;">
                 @for($i = 1; $i <= 31; $i++)
                     <div class="time-container"
-                         style="width: 14.28571428571429%; box-sizing: border-box; padding: 5px;">
+                         style="/*width: 14.28571428571429%; */box-sizing: border-box; padding: 5px; width: 150px; /*min-width: 150px;max-width: 150px;*/">
                         <div style="border: 3px solid rgba(76,78,81,0.3); height: auto;padding: 20px 0 15px 0;text-align: center;">
                             <p class="day" style="font-size: 20px;">{{$i}}</p>
-                            <p class="day" style="font-size: 14px;">Доступно 8</p>
-                            <a href="#" class="quest-button black">БРОНИРОВАТЬ</a>
+                            <p class="week" style="font-size: 14px;">Monday</p>
+                            <p class="available" style="font-size: 14px;">Доступно 8</p>
+                            <a href="#" class="quest-button black small">БРОНИРОВАТЬ</a>
                         </div>
                     </div>
                 @endfor

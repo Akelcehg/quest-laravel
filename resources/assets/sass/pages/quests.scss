@@ -83,6 +83,10 @@ section.intro {
   padding: 5px 10px 5px 10px;
   font-size: 12px;
 
+  &:visited {
+    color: black;
+  }
+
   &:hover {
     background-color: $black_bg;
     color: white;

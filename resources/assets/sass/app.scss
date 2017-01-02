@@ -94,8 +94,9 @@ section.white {
 }
 
 .quest-button {
+  font-weight: 500;
   text-decoration: none;
-  font-family: Fira Sans, sans-serif;
+  font-family: $default-font;
   border: none;
   font-size: 13px;
   color: white;
@@ -105,6 +106,11 @@ section.white {
 
   &.black {
     background-color: #1f2225;
+  }
+
+  &.small {
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
   }
 }
 

@@ -578,8 +578,9 @@ section.white p i {
 }
 
 .quest-button {
+  font-weight: 500;
   text-decoration: none;
-  font-family: Fira Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   border: none;
   font-size: 13px;
   color: white;
@@ -590,6 +591,11 @@ section.white p i {
 
 .quest-button.black {
   background-color: #1f2225;
+}
+
+.quest-button.small {
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
 }
 
 .half {
@@ -1030,6 +1036,10 @@ section.intro h1.heading {
   border: 1px solid #4c4e51;
   padding: 5px 10px 5px 10px;
   font-size: 12px;
+}
+
+.arrow:visited {
+  color: black;
 }
 
 .arrow:hover {

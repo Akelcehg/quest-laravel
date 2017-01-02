@@ -125,6 +125,10 @@ section.intro h1.heading {
   font-size: 12px;
 }
 
+.arrow:visited {
+  color: black;
+}
+
 .arrow:hover {
   background-color: #1f2225;
   color: white;
