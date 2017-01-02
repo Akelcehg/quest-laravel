@@ -10,14 +10,14 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    {{--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">--}}
-    <!-- Styles -->
+{{--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">--}}
+<!-- Styles -->
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
-    @stack('styles')
+@stack('styles')
 
-    <!-- Scripts -->
+<!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
@@ -36,7 +36,6 @@
 
 <!-- Scripts -->
 {{--<script src="/js/app.js"></script>--}}
-<script src="/js/basic.js"></script>
 @stack('scripts')
 </body>
 </html>

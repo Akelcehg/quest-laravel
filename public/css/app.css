@@ -1002,8 +1002,7 @@ section.intro h1.heading {
 .quest-bg #desktop {
   display: block;
   position: absolute;
-  top: 0px;
-  display: block;
+  top: 0;
   width: 100%;
   z-index: -1;
   height: 650px;
@@ -1023,6 +1022,19 @@ section.intro h1.heading {
   .quest-bg header {
     background-color: #1f2225;
   }
+}
+
+.arrow {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #4c4e51;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+}
+
+.arrow:hover {
+  background-color: #1f2225;
+  color: white;
 }
 
 .quest-map {

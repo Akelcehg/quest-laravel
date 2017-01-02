@@ -26,19 +26,8 @@ elixir(function (mix) {
         .sass('pages/quests.scss', 'public/css/quests.css')
         .sass('pages/contact.scss', 'public/css/contact.css')
         .sass('pages/franchise.scss', 'public/css/franchise.css');
-
 });
 
 elixir(function (mix) {
-    mix.webpack('basic.js', 'public/js/basic.js');
-
     mix.scripts('map.js', 'public/js/map.js');
 });
-
-/*
- elixir((mix) => {
- mix.sass('app.scss')
- .mix.sass('header.scss')
- .webpack('app.js');
- });
- */

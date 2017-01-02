@@ -6,7 +6,7 @@
 
 @section('content')
 
-    @include('parts.quest_header',['background_image' => '/img/quests/1.jpg','heading'=>'Название квеста'])
+    @include('parts.quest_header',['background_image' => '/img/quests/4.jpg','heading'=>'Название квеста'])
 
     <section class="gray" style="height: auto; padding: 25px 0 25px 0;">
         <div class="quest-description" style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
@@ -64,8 +64,10 @@
 
         <div style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
 
-            <div style="display: flex;margin-top: 25px; width:100%; justify-content: center;">
-                <a class="arrow" href="#"><</a><p>JANUARY</p><a class="arrow" href="#">></a>
+            <div class="mont-switcher" style="display: flex;margin-top: 25px; width:100%; justify-content: center;">
+                <a class="arrow" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                <p class="month-name" style="font-weight:bolder;padding: 5px 10px 5px 10px;">JANUARY</p>
+                <a class="arrow" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
 
             <div class="days-name-row" style="width: 100%; display: flex; text-align: center; margin: 20px 0 20px 0;">

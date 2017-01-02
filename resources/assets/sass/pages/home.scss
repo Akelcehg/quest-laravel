@@ -120,7 +120,7 @@ section.tasks {
 
     }
     .desc {
-      color: #6c7176;
+      color: $default-text-color;
       text-align: justify;
       width: 70%;
       @media screen and (max-width: 700px) {
@@ -167,7 +167,7 @@ section.statistics {
       font-size: 30px;
     }
     .desc {
-      color: #6c7176;
+      color: $default-text-color;
       font-size: 16px;
     }
     p {
