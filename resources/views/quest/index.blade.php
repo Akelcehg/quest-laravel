@@ -61,7 +61,13 @@
     <div class="quest-map" id="map"></div>
 
     <section class="white" style="height: auto;">
-        <div style="margin: auto; width: 80%;display: flex;flex-wrap: wrap; border: 1px solid black;">
+
+        <div style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
+
+            <div style="display: flex;margin-top: 25px; width:100%; justify-content: center;">
+                <a class="arrow" href="#"><</a><p>JANUARY</p><a class="arrow" href="#">></a>
+            </div>
+
             <div class="days-name-row" style="width: 100%; display: flex; text-align: center; margin: 20px 0 20px 0;">
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
                 <div class="day-name" style="width: 14.28571428571429%;">Monday</div>

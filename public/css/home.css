@@ -1,3 +1,47 @@
+/*
+// Body
+$body-bg: #f5f8fa;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;*/
+/*$section_bg: #1f2225;
+$default-font: 'Fira Sans', sans-serif;
+$default-font: 'Open Sans', sans-serif;
+$black_bg: #1f2225;
+$border_color: rgba(76, 78, 81, 0.31);
+$coral: #fb383c;
+$border_width: 2px;*/
 .layer {
   background-color: rgba(12, 16, 19, 0.85);
   position: absolute;
@@ -16,7 +60,7 @@ section.intro {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  border-bottom: 2px solid rgba(76, 78, 81, 0.31);
+  border-bottom: 1px solid #4c4e51;
 }
 
 section.intro .section-content {
@@ -28,7 +72,7 @@ section.intro h1.heading {
   font-weight: 500;
   font-size: 40px;
   color: white;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -117,7 +161,7 @@ section.tasks .mid {
 section.tasks .task-container .heading {
   color: white;
   font-size: 16px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 section.tasks .task-container .task-number {
@@ -202,16 +246,16 @@ section.statistics .wrap .content {
 
 section.statistics .wrap .bordered {
   box-sizing: border-box;
-  border-left: 2px solid rgba(76, 78, 81, 0.31);
-  border-right: 2px solid rgba(76, 78, 81, 0.31);
+  border-left: 1px solid #4c4e51;
+  border-right: 1px solid #4c4e51;
 }
 
 @media screen and (max-width: 700px) {
   section.statistics .wrap .bordered {
     border-left: none;
     border-right: none;
-    border-top: 2px solid rgba(76, 78, 81, 0.31);
-    border-bottom: 2px solid rgba(76, 78, 81, 0.31);
+    border-top: 1px solid #4c4e51;
+    border-bottom: 1px solid #4c4e51;
   }
 }
 

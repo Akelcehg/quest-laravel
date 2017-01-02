@@ -1,10 +1,11 @@
-$section_bg: #1f2225;
-$font-fira: 'Fira Sans', sans-serif;
-/*$font-open: 'Open Sans', sans-serif;
-$black_bg: #1f2225;*/
+@import "../variables";
+/*$section_bg: #1f2225;
+$default-font: 'Fira Sans', sans-serif;
+!*$default-font: 'Open Sans', sans-serif;
+$black_bg: #1f2225;*!
 $border_color: #4c4e51;
 $coral: #fb383c;
-$border_width: 1px;
+$border_width: 1px;*/
 
 section.intro {
   position: relative;
@@ -24,7 +25,7 @@ section.intro {
     font-weight: 500;
     font-size: 40px;
     color: white;
-    font-family: $font-fira;
+    font-family: $default-font;
     margin-bottom: 20px;
   }
 

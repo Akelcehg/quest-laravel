@@ -1,10 +1,11 @@
-$section_bg: #1f2225;
-$font-fira: 'Fira Sans', sans-serif;
-$font-open: 'Open Sans', sans-serif;
+@import "../variables";
+/*$section_bg: #1f2225;
+$default-font: 'Fira Sans', sans-serif;
+$default-font: 'Open Sans', sans-serif;
 $black_bg: #1f2225;
 $border_color: rgba(76, 78, 81, 0.31);
 $coral: #fb383c;
-$border_width: 2px;
+$border_width: 2px;*/
 
 .layer {
   background-color: rgba(12, 16, 19, 0.85);
@@ -34,7 +35,7 @@ section.intro {
     font-weight: 500;
     font-size: 40px;
     color: white;
-    font-family: $font-fira;
+    font-family: $default-font;
     margin-bottom: 20px;
   }
 }
@@ -111,7 +112,7 @@ section.tasks {
     .heading {
       color: white;
       font-size: 16px;
-      font-family: $font-fira;
+      font-family: $default-font;
     }
 
     .task-number {
@@ -143,7 +144,7 @@ section.tasks {
 
     p {
       margin: 15px 0 15px 0;
-      font-family: $font-open;
+      font-family: $default-font;
       font-size: 13px;
       @media screen and (max-width: 700px) {
         margin: 10px 0 10px 0;
