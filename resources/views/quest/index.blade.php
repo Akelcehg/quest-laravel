@@ -92,7 +92,7 @@
 
 
                 <div class="date">
-                    @for($i=1;$i<12;$i++)
+                    @for($i=1;$i<8;$i++)
                         <div class="side-day-name">
                             <p>3 january</p>
                             <p>Monday</p>
@@ -103,7 +103,7 @@
                 <div class="times">
                     <div class="times-scroll">
 
-                        @for($j=1;$j<12;$j++)
+                        @for($j=1;$j<8;$j++)
                             <div class="times-wrap">
                                 <?php $w = '4%';?>
                                 <div class="times-row">
