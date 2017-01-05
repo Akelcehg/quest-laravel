@@ -88,51 +88,111 @@
 
     <section class="white" style="height: auto; padding-bottom: 25px; padding-top: 25px;">
         <div style="margin: auto; width: 100%;display: flex;flex-wrap: wrap;">
-            <div class="row" style="display: flex;flex-wrap: wrap;justify-content: center;width: 100%; height: 80px;">
+            <div class="row"
+                 style="display: flex;flex-wrap: wrap;justify-content: center;width: 100%; /*height: 80px;*/">
+
                 <div class="date" style="width: 10%;
-                /*height: 100%;*/
                 box-sizing:border-box;
-                /*border: 2px solid rgba(76,78,81,0.5);*/
-                    height: 66px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 5px;
-    margin-bottom: 2px;
     overflow: hidden;
                 display: flex; /*margin: auto; */justify-content: center; flex-direction: column;">
+                    <div>
+                        <p style="padding: 5px 0 5px 0;">3 january</p>
+                        <p style="padding: 5px 0 5px 0;">Monday</p>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <p style="padding: 5px 0 5px 0;">3 january</p>
+                        <p style="padding: 5px 0 5px 0;">Monday</p>
+                    </div>
+
+                </div>
+                {{--<div class="date" style="width: 10%;
+                    box-sizing:border-box;
+                        height: 66px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        margin-bottom: 2px;
+        overflow: hidden;
+                    display: flex; /*margin: auto; */justify-content: center; flex-direction: column;">
                     <p style="padding: 5px 0 5px 0;">3 january</p>
                     <p style="padding: 5px 0 5px 0;">Monday</p>
-                </div>
+                </div>--}}
+
+
                 <div class="times"
-                     style="display: flex;  justify-content: flex-start; flex-direction: column; width: 90%;height: 31px; margin: auto;">
-                    <?php /*$w = 100 / 15 . '%';*/?>
-                    <?php $w = '4%';?>
-                    <div class="times-row" style="display: flex;justify-content: flex-start; ">
-                        @for($i = 1; $i <= 18; $i++)
+                     style="display: flex;  justify-content: flex-start; flex-direction: column; width: 90%;
+                     margin: auto;
+                     overflow-x: scroll;
+                     overflow-y: hidden;
+    height: auto !important;">
+                    <div class="times-scroll" style="
 
-                            <div style="width: <?=$w?>; margin-left: 1.5%;">
-                                <div style="/*padding: 0 5px 0 0;*/">
-                                    <div class="time"
-                                         style=" box-sizing: border-box;padding: 5px 5px 5px 5px;text-align: center;    border: 2px solid rgba(76,78,81,0.5);  font-size: 13px;border-radius: 15px;">
-                                        15:21
+min-width: 1000px;
+">
+
+                        <div style="margin-top: 10px;">
+                            <?php /*$w = 100 / 15 . '%';*/?>
+                            <?php $w = '4%';?>
+                            <div class="times-row" style="display: flex;justify-content: flex-start;">
+                                @for($i = 1; $i <= 18; $i++)
+
+                                    <div style="width: <?=$w?>; margin-left: 1.5%;">
+                                        <div style="/*padding: 0 5px 0 0;*/">
+                                            <div class="time"
+                                                 style="    padding: 5px 2px 6px 2px;box-sizing: border-box;/*padding: 5px 5px 5px 5px;*/text-align: center;border: 2px solid rgba(76,78,81,0.5);  font-size: 13px;border-radius: 15px;">
+                                                15:21
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
 
-                        @endfor
+                                @endfor
 
-                    </div>
-                    <div class="prices-row"
-                         style="display: flex;  justify-content: flex-start; margin-top: 15px;">
-                        @for($i = 1; $i <= 18; $i++)
-                            <div style="text-align: center; width: 5.5%; height: 15px;box-sizing: border-box;margin-top: 5px;border-bottom: 1px solid rgba(76,78,81,0.5);">
-                                <p style="font-size: 12px; ">
-                                    @if ($i %3 == 0)
-                                        500 грн.</p>
-                                @endif
                             </div>
-                        @endfor
+                            <div class="prices-row"
+                                 style="display: flex;  justify-content: flex-start;">
+                                @for($i = 1; $i <= 18; $i++)
+                                    <div style="text-align: center; width: 5.5%; height: 15px;box-sizing: border-box;margin-top: 5px;border-bottom: 1px solid rgba(76,78,81,0.5);">
+                                        <p style="font-size: 12px; ">
+                                            @if ($i %3 == 0)
+                                                500 грн.</p>
+                                        @endif
+                                    </div>
+                                @endfor
+                            </div>
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <?php /*$w = 100 / 15 . '%';*/?>
+                            <?php $w = '4%';?>
+                            <div class="times-row" style="display: flex;justify-content: flex-start;">
+                                @for($i = 1; $i <= 18; $i++)
+
+                                    <div style="width: <?=$w?>; margin-left: 1.5%;">
+                                        <div style="/*padding: 0 5px 0 0;*/">
+                                            <div class="time"
+                                                 style="    padding: 5px 2px 6px 2px;box-sizing: border-box;/*padding: 5px 5px 5px 5px;*/text-align: center;border: 2px solid rgba(76,78,81,0.5);  font-size: 13px;border-radius: 15px;">
+                                                15:21
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                @endfor
+
+                            </div>
+                            <div class="prices-row"
+                                 style="display: flex;  justify-content: flex-start;">
+                                @for($i = 1; $i <= 18; $i++)
+                                    <div style="text-align: center; width: 5.5%; height: 15px;box-sizing: border-box;margin-top: 5px;border-bottom: 1px solid rgba(76,78,81,0.5);">
+                                        <p style="font-size: 12px; ">
+                                            @if ($i %3 == 0)
+                                                500 грн.</p>
+                                        @endif
+                                    </div>
+                                @endfor
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
 
             </div>
 
