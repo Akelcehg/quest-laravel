@@ -18,6 +18,7 @@ elixir(function (mix) {
         'app.scss',
         '/pages/about.scss',
         '/pages/quests.scss',
+        '/pages/quest.scss',
         '/pages/franchise.scss',
         '/pages/contact.scss'
     ], 'public/css')
@@ -25,6 +26,7 @@ elixir(function (mix) {
         .sass('pages/about.scss', 'public/css/about.css')
         .sass('pages/quests.scss', 'public/css/quests.css')
         .sass('pages/contact.scss', 'public/css/contact.css')
+        .sass('pages/quest.scss', 'public/css/quest.css')
         .sass('pages/franchise.scss', 'public/css/franchise.css');
 });
 

@@ -60,7 +60,7 @@ section.intro {
   -webkit-box-align: center;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid #4c4e51;
+  border-bottom: 1px solid rgba(76, 78, 81, 0.51);
 }
 
 section.intro .section-content {
@@ -246,16 +246,16 @@ section.statistics .wrap .content {
 
 section.statistics .wrap .bordered {
   box-sizing: border-box;
-  border-left: 1px solid #4c4e51;
-  border-right: 1px solid #4c4e51;
+  border-left: 1px solid rgba(76, 78, 81, 0.51);
+  border-right: 1px solid rgba(76, 78, 81, 0.51);
 }
 
 @media screen and (max-width: 700px) {
   section.statistics .wrap .bordered {
     border-left: none;
     border-right: none;
-    border-top: 1px solid #4c4e51;
-    border-bottom: 1px solid #4c4e51;
+    border-top: 1px solid rgba(76, 78, 81, 0.51);
+    border-bottom: 1px solid rgba(76, 78, 81, 0.51);
   }
 }
 

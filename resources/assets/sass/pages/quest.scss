@@ -1,0 +1,105 @@
+@import "../variables";
+
+.booking-times-section {
+  height: auto !important;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+  .desktop-times-wrap {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+
+      .date {
+        background-color: rgba(189, 189, 189, 0.3);
+        width: 10%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .side-day-name {
+          margin-top: 10px;
+          padding-left: 10px;
+          border-bottom: 4px solid white;
+          p {
+            text-align: left;
+            padding: 5px 0 5px 0;
+          }
+        }
+      }
+
+      .times {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        overflow-y: hidden;
+        height: auto !important;
+
+        .times-scroll {
+          min-width: 1000px;
+
+          .times-wrap {
+            padding-top: 10px;
+            height: 56px;
+            border-bottom: 4px solid white;
+            .times-row {
+              display: flex;
+              justify-content: flex-start;
+
+              .time {
+                padding: 5px 2px 6px 2px;
+                box-sizing: border-box;
+                text-align: center;
+                border: 2px solid rgba(76, 78, 81, 0.5);
+                font-size: 13px;
+                border-radius: 15px;
+              }
+
+              .time:hover {
+                background-color: black;
+                color: white;
+                border: 2px solid white;
+              }
+
+              div {
+                cursor: pointer;
+              }
+            }
+
+            .prices-row {
+              display: flex;
+              justify-content: flex-start;
+
+              .price {
+                text-align: center;
+                width: 5.5%;
+                height: 15px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                border-bottom: 1px solid rgba(76, 78, 81, 0.5);
+              }
+            }
+          }
+
+          .times-wrap:hover {
+            background-color: rgba(200, 200, 200, 0.3);
+            .time {
+              background-color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
