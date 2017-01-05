@@ -9,7 +9,7 @@
     @include('parts.quest_header',['background_image' => '/img/quests/4.jpg','heading'=>'Название квеста'])
 
     <section class="gray" style="height: auto; padding: 25px 0 25px 0;">
-        <div class="quest-description" style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
+        <div class="quest-description" style="margin: auto; width: 90%;display: flex;flex-wrap: wrap;">
 
             <div style="width: 65%;">
                 <h1>НАЗВАНИЕ КВЕСТА</h1>
@@ -58,32 +58,22 @@
         </div>
     </section>
 
-    <div class="quest-map" id="map"></div>
+    {{--<div class="quest-map" id="map"></div>--}}
 
-    <section class="white" style="height: auto;">
+    {{--<section class="white" style="height: auto;">
 
-        <div style="margin: auto; width: 80%;display: flex;flex-wrap: wrap;">
+        <div style="margin: auto; width: 90%;display: flex;flex-wrap: wrap;">
 
             <div class="mont-switcher" style="display: flex;margin-top: 25px; width:100%; justify-content: center;">
                 <a class="arrow" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
                 <p class="month-name" style="font-weight:bolder;padding: 5px 10px 5px 10px;">JANUARY</p>
                 <a class="arrow" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
-
-            {{--<div class="days-name-row" style="width: 100%; display: flex; text-align: center; margin: 20px 0 20px 0;">
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-                <div class="day-name" style="width: 14.28571428571429%;">Monday</div>
-            </div>--}}
             <div class="date-wrap"
-                 style="width: 100%; margin-top: 20px; display: flex; height: auto; flex-wrap: wrap;  justify-content: center;">
+                 style="width: 100%; margin-top: 20px; display: flex; height: auto; flex-wrap: wrap;">
                 @for($i = 1; $i <= 31; $i++)
                     <div class="time-container"
-                         style="/*width: 14.28571428571429%; */box-sizing: border-box; padding: 5px; width: 150px; /*min-width: 150px;max-width: 150px;*/">
+                         style="/*width: 14.28571428571429%;*/ box-sizing: border-box; padding: 5px; width: 150px; /*min-width: 150px;max-width: 150px;*/">
                         <div style="border: 3px solid rgba(76,78,81,0.3); height: auto;padding: 20px 0 15px 0;text-align: center;">
                             <p class="day" style="font-size: 20px;">{{$i}}</p>
                             <p class="week" style="font-size: 14px;">Monday</p>
@@ -94,6 +84,60 @@
                 @endfor
             </div>
         </div>
+    </section>--}}
+
+    <section class="white" style="height: auto; padding-bottom: 25px; padding-top: 25px;">
+        <div style="margin: auto; width: 100%;display: flex;flex-wrap: wrap;">
+            <div class="row" style="display: flex;flex-wrap: wrap;justify-content: center;width: 100%; height: 80px;">
+                <div class="date" style="width: 10%;
+                /*height: 100%;*/
+                box-sizing:border-box;
+                /*border: 2px solid rgba(76,78,81,0.5);*/
+                    height: 66px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    margin-bottom: 2px;
+    overflow: hidden;
+                display: flex; /*margin: auto; */justify-content: center; flex-direction: column;">
+                    <p style="padding: 5px 0 5px 0;">3 january</p>
+                    <p style="padding: 5px 0 5px 0;">Monday</p>
+                </div>
+                <div class="times"
+                     style="display: flex;  justify-content: flex-start; flex-direction: column; width: 90%;height: 31px; margin: auto;">
+                    <?php /*$w = 100 / 15 . '%';*/?>
+                    <?php $w = '4%';?>
+                    <div class="times-row" style="display: flex;justify-content: flex-start; ">
+                        @for($i = 1; $i <= 18; $i++)
+
+                            <div style="width: <?=$w?>; margin-left: 1.5%;">
+                                <div style="/*padding: 0 5px 0 0;*/">
+                                    <div class="time"
+                                         style=" box-sizing: border-box;padding: 5px 5px 5px 5px;text-align: center;    border: 2px solid rgba(76,78,81,0.5);  font-size: 13px;border-radius: 15px;">
+                                        15:21
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endfor
+
+                    </div>
+                    <div class="prices-row"
+                         style="display: flex;  justify-content: flex-start; margin-top: 15px;">
+                        @for($i = 1; $i <= 18; $i++)
+                            <div style="text-align: center; width: 5.5%; height: 15px;box-sizing: border-box;margin-top: 5px;border-bottom: 1px solid rgba(76,78,81,0.5);">
+                                <p style="font-size: 12px; ">
+                                    @if ($i %3 == 0)
+                                        500 грн.</p>
+                                @endif
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
     @push('scripts')
