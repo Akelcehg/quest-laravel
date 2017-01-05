@@ -121,7 +121,7 @@
                 <div class="times"
                      style="display: flex;  justify-content: flex-start; flex-direction: column; width: 90%;
                      margin: auto;
-                     overflow-x: scroll;
+                     /*overflow-x: scroll;*/
                      overflow-y: hidden;
     height: auto !important;">
                     <div class="times-scroll" style="
@@ -152,9 +152,9 @@ min-width: 1000px;
                                 @for($i = 1; $i <= 18; $i++)
                                     <div style="text-align: center; width: 5.5%; height: 15px;box-sizing: border-box;margin-top: 5px;border-bottom: 1px solid rgba(76,78,81,0.5);">
                                         <p style="font-size: 12px; ">
-                                            @if ($i %3 == 0)
+                                            {{--@if ($i %3 == 0)--}}
                                                 500 грн.</p>
-                                        @endif
+                                        {{--@endif--}}
                                     </div>
                                 @endfor
                             </div>
