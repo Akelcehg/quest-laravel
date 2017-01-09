@@ -113,7 +113,55 @@
     display: none;
     @media screen and (max-width: 768px) {
       display: flex;
+      flex-direction: column;
     }
+
+    .date {
+      background-color: rgba(189, 189, 189, 0.3);
+      width: 100%;
+      margin-top: 10px;
+      padding-left: 20px;
+      padding-top: 20px;
+      border-bottom: 4px solid white;
+      p {
+        text-align: left;
+        //padding: 5px 0 5px 0;
+      }
+    }
+    .time-line {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .times {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      .time {
+        margin: 7.5px 3.75px;
+        padding: 7.5px 10.5px;
+        line-height: 15px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 2px solid rgba(76, 78, 81, 0.5);
+        font-size: 15px;
+        border-radius: 15px;
+      }
+
+      .time:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+      }
+    }
+    .price {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+
   }
 
 }

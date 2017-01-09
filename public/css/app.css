@@ -1225,7 +1225,63 @@ $panel-default-heading-bg: #fff;*/
   .booking-times-section.mobile {
     display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
   }
+}
+
+.booking-times-section.mobile .date {
+  background-color: rgba(189, 189, 189, 0.3);
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-bottom: 4px solid white;
+}
+
+.booking-times-section.mobile .date p {
+  text-align: left;
+}
+
+.booking-times-section.mobile .time-line {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booking-times-section.mobile .times {
+  width: 70%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.booking-times-section.mobile .times .time {
+  margin: 7.5px 3.75px;
+  padding: 7.5px 10.5px;
+  line-height: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid rgba(76, 78, 81, 0.5);
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.booking-times-section.mobile .times .time:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.booking-times-section.mobile .price {
+  width: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .quest-description .text {

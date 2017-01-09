@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    <div class="quest-map" id="map"></div>
+    {{--<div class="quest-map" id="map"></div>--}}
 
     {{--<section class="white" style="height: auto;">
 
@@ -127,7 +127,32 @@
     </section>
 
     <section class="white booking-times-section mobile">
-        dsadasdsa
+
+        @for ($i=0;$i<=7;$i++)
+
+            <div class="date">
+                <p>3 january</p>
+                <p>Monday</p>
+            </div>
+            <div class="time-line">
+                <div class="times">
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                    <div class="time">15:21</div>
+                </div>
+                <div class="price">
+                    500 грн.
+                </div>
+            </div>
+        @endfor
     </section>
 
     @push('scripts')
