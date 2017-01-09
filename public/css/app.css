@@ -1211,6 +1211,59 @@ $panel-default-heading-bg: #fff;*/
   background-color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .booking-times-section.desktop {
+    display: none;
+  }
+}
+
+.booking-times-section.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .booking-times-section.mobile {
+    display: -webkit-box;
+    display: flex;
+  }
+}
+
+.quest-description .text {
+  width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .quest-description .text {
+    width: 100%;
+  }
+}
+
+.quest-description .space {
+  width: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .quest-description .space {
+    display: none;
+  }
+}
+
+.quest-description .info {
+  width: 30%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .quest-description .info {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
 /*
 // Body
 $body-bg: #f5f8fa;
