@@ -14,7 +14,7 @@
     <section style="margin: 20px 0 20px 0;">
         <h1 style="text-align: center;">КВЕСТХАУС - ЭТО КВЕСТЫ В РЕАЛЬНОСТИ И ИГРОВОЕ ПРОСТРАНСТВО</h1>
     </section>
-    <section style="width: 80%; margin: 0 auto; display: flex; background-color: white;">
+    <section class="about-section" style="width: 80%; margin: 0 auto; display: flex;">
 
         <ul class="timeline">
             <li>

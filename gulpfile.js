@@ -20,14 +20,17 @@ elixir(function (mix) {
         '/pages/quests.scss',
         '/pages/quest.scss',
         '/pages/franchise.scss',
-        '/pages/contact.scss'
+        '/pages/contact.scss',
+
+        '/themes/theme1.scss'
     ], 'public/css')
         .sass('pages/home.scss', 'public/css/home.css')
         .sass('pages/about.scss', 'public/css/about.css')
         .sass('pages/quests.scss', 'public/css/quests.css')
         .sass('pages/contact.scss', 'public/css/contact.css')
         .sass('pages/quest.scss', 'public/css/quest.css')
-        .sass('pages/franchise.scss', 'public/css/franchise.css');
+        .sass('pages/franchise.scss', 'public/css/franchise.css')
+        .sass('themes/theme1.scss', 'public/css/theme1.css');
 });
 
 elixir(function (mix) {

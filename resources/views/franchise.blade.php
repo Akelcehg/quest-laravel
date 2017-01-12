@@ -11,7 +11,7 @@
     'heading'=>'ФРАНШИЗА С НАМИ'
     ])
 
-    <section style="background-color: white; padding: 15px 0 15px 0;">
+    <section class="franchise-section" style="background-color: white; padding: 15px 0 15px 0;">
 
         <h3 style="font-size: 35px; color:#fb383c; text-align: center;margin-bottom: 0;">Хочешь
             получать

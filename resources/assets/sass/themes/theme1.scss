@@ -1,0 +1,50 @@
+@import "../variables";
+
+section.gray {
+  background: $gradient;
+  color: $theme_font;
+}
+
+section.white {
+  background: $gradient;
+  color: $theme_font;
+}
+
+section.franchise-section{
+  background-color: transparent !important;
+
+  h3 {
+    color: $theme_font_secondary !important;
+  }
+  p {
+    color: $theme_font !important;
+  }
+}
+
+section {
+  h1 {
+    color: $theme_font;
+  }
+}
+
+section.contact-info {
+  h3 {
+    color: $theme_font;
+  }
+  p {
+    color: $theme_font;
+  }
+}
+
+section.about-section {
+  h1 {
+    color: $theme_font;
+  }
+  p.text-muted {
+    color: $theme_font;
+  }
+}
+
+body {
+  background: $gradient;
+}
