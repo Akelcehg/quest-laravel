@@ -1557,14 +1557,14 @@ $input-color-placeholder: lighten($text-color, 30%);
 // Panels
 $panel-default-heading-bg: #fff;*/
 section.gray {
-  background: -webkit-linear-gradient(right, #C04848, #480048);
-  background: linear-gradient(to left, #C04848, #480048);
+  background: -webkit-linear-gradient(right, #3a003a, #7c2f2f);
+  background: linear-gradient(to left, #3a003a, #7c2f2f);
   color: white;
 }
 
 section.white {
-  background: -webkit-linear-gradient(right, #C04848, #480048);
-  background: linear-gradient(to left, #C04848, #480048);
+  background: -webkit-linear-gradient(right, #3a003a, #7c2f2f);
+  background: linear-gradient(to left, #3a003a, #7c2f2f);
   color: white;
 }
 
@@ -1601,8 +1601,36 @@ section.about-section p.text-muted {
 }
 
 body {
-  background: -webkit-linear-gradient(right, #C04848, #480048);
-  background: linear-gradient(to left, #C04848, #480048);
+  background: -webkit-linear-gradient(right, #3a003a, #7c2f2f);
+  background: linear-gradient(to left, #3a003a, #7c2f2f);
+}
+
+section.booking-times-section .time {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+section.booking-times-section .date .side-day-name {
+  border-bottom: none !important;
+}
+
+section.booking-times-section .times .times-wrap {
+  border-bottom: none !important;
+}
+
+section.booking-times-section .times .times-wrap:hover .time {
+  background-color: transparent !important;
+}
+
+section.booking-times-section .prices-row .price {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.quest-description .info {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.quest-description .info p {
+  color: white !important;
 }
 
 /*# sourceMappingURL=app.css.map */
