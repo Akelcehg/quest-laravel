@@ -120,7 +120,7 @@
       background-color: rgba(189, 189, 189, 0.3);
       width: 100%;
       margin-top: 10px;
-      padding-left: 20px;
+      //padding-left: 20px;
       padding-top: 20px;
       border-bottom: 4px solid white;
       p {
@@ -188,4 +188,74 @@
       margin-top: 20px;
     }
   }
+}
+.quest-bg {
+
+  #mobile {
+    display: none;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      opacity: 0;
+    }
+  }
+
+  #desktop {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    height: 650px;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  header {
+    background-color: rgba(0, 0, 0, .3);
+    @media screen and (max-width: 768px) {
+      background-color: #1f2225;
+    }
+  }
+
+}
+section.intro {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: $border_width solid $border_color;
+
+  .section-content {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  h1.heading {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    font-family: $default-font;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+}
+
+.quest-map {
+  height: 400px;
+  width: 100%;
 }

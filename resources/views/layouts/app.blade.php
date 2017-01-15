@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">--}}
 <!-- Styles -->
     <link href="/css/font-awesome.min.css" rel="stylesheet">
+    {{--<link href="/css/partials/header.css" rel="stylesheet">--}}
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/themes/theme1.css" rel="stylesheet">
 @stack('styles')

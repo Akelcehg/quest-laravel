@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('styles')
-<link href="/css/quest.css" rel="stylesheet">
+<link href="/css/pages/quest.css" rel="stylesheet">
 @endpush
 
 @section('content')
@@ -57,7 +57,7 @@
         </div>
     </section>
 
-    {{--<div class="quest-map" id="map"></div>--}}
+    <div class="quest-map" id="map"></div>
 
     {{--<section class="white" style="height: auto;">
 
