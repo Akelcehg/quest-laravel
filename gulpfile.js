@@ -26,7 +26,7 @@ gulp.task('js-min', function () {
 });
 
 elixir(function (mix) {
-    /*  mix.sass([
+      mix.sass([
      'app.scss',
      '/pages/about.scss',
      '/pages/quests.scss',
@@ -41,8 +41,8 @@ elixir(function (mix) {
      .sass('pages/contact.scss', 'public/css/contact.css')
      .sass('pages/quest.scss', 'public/css/quest.css')
      .sass('pages/franchise.scss', 'public/css/franchise.css')
-     .sass('themes/theme1.scss', 'public/css/theme1.css');*/
-    mix.task('css-min');
+     .sass('themes/theme1.scss', 'public/css/theme1.css');
+    //mix.task('css-min');
 });
 
 /*
