@@ -85,7 +85,14 @@
         </div>
     </section>--}}
 
+    <section class="white" style="height: 80px;">
+        <div class="section-content">
+            <h2 class="heading">БРОНИРОВАНИЕ</h2>
+        </div>
+    </section>
+
     <section class="white booking-times-section desktop">
+
         <div class="desktop-times-wrap">
             <div class="row">
                 <div class="date">
