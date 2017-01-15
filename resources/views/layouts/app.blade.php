@@ -15,7 +15,7 @@
 <!-- Styles -->
     <link href="/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
-    <link href="/css/theme1.css" rel="stylesheet">
+    <link href="/css/themes/theme1.css" rel="stylesheet">
 @stack('styles')
 
 <!-- Scripts -->

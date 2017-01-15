@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('styles')
-<link href="/css/quests.css" rel="stylesheet">
+<link href="/css/pages/quests.css" rel="stylesheet">
 @endpush
 
 @section('content')
