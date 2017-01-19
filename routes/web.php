@@ -22,3 +22,6 @@ Route::get('/quest/{name}', 'QuestController@index');
 Route::get('/about', 'AboutController@index');
 Route::get('/franchise', 'FranchiseController@index');
 Route::get('/contact', 'ContactController@index');
+
+
+Route::get('admin','Admin\HomeController@index');
