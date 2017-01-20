@@ -24,4 +24,8 @@ Route::get('/franchise', 'FranchiseController@index');
 Route::get('/contact', 'ContactController@index');
 
 
-Route::get('admin','Admin\HomeController@index');
+Route::group(['middleware' => 'auth'], function () {
+
+    Route::get('admin', 'Admin\HomeController@index');
+    
+});
