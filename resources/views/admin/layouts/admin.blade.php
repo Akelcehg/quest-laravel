@@ -63,7 +63,7 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Список вестов</a></li>
+                            <li><a href="{{route('quests.index')}}">Список вестов</a></li>
                         </ul>
                     </li>
                 </ul>

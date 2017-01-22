@@ -29,4 +29,5 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
     Route::get('/', 'Admin\HomeController@index');
 
     Route::resource('users', 'Admin\UsersController');
+    Route::resource('quests', 'Admin\QuestsController');
 });
