@@ -11,6 +11,8 @@ class QuestSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Quest::class, 6)->create();
+        factory(\App\Quest::class, 6)->create()->each(function ($q) {
+            $q->images()->save(factory(App\QuestImage::class)->make());
+        });
     }
 }

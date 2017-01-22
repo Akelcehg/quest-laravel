@@ -29,5 +29,8 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Quest extends Model
 {
-    //
+    public function images()
+    {
+        return $this->hasMany(QuestImage::class);
+    }
 }
