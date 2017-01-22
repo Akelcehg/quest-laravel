@@ -12,6 +12,8 @@
 
     <!-- Styles -->
     <link href="/css/admin/app.css" rel="stylesheet">
+    <link href="/css/admin/table.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>

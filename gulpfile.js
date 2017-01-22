@@ -14,6 +14,13 @@ require('laravel-elixir-vue-2');
  |
  */
 
+gulp.task('admin-css', function () {
+    return gulp.src('resources/assets/admin/sass/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(gulp.dest('./public/css/admin/'));
+});
+
 gulp.task('css-min', function () {
     return gulp.src('resources/assets/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
