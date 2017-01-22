@@ -15,7 +15,11 @@ class QuestsController extends Controller
      */
     public function index()
     {
-        return \Response::view('admin.quests.index', ['quests' => Quest::paginate('10')]);
+        return \Response::view('admin.quests.index', [
+            'quests' => Quest::with('images')
+                ->orderBy('id', 'desc')
+                ->paginate('10')
+        ]);
     }
 
     /**
@@ -58,7 +62,9 @@ class QuestsController extends Controller
      */
     public function edit($id)
     {
-        //
+        return \Response::view('admin.quests.edit', [
+            'quest' => Quest::find($id)
+        ]);
     }
 
     /**

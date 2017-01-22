@@ -26,6 +26,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Query\Builder|\App\Quest whereCreatedAt($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Quest whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\QuestImage[] $images
  */
 class Quest extends Model
 {

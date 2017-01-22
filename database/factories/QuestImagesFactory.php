@@ -8,6 +8,7 @@ $factory->define(App\QuestImage::class, function (Faker\Generator $faker) {
     return [
         'image' => $image,
         'thumbnail' => $image_thumb,
+        'for_display' => 0,
         'quest_id' => str_random(10),
     ];
 });
