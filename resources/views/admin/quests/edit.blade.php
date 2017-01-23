@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h1>Edit {{ $quest->name }}</h1>
+        <h1>Редактирование квеста "{{ $quest->name }}"</h1>
 
         <!-- if there are creation errors, they will show here -->
         {{ Html::ul($errors->all()) }}
@@ -10,21 +10,46 @@
         {{ Form::model($quest, array('action' => array('Admin\QuestsController@update', $quest->id), 'method' => 'PUT')) }}
 
         <div class="form-group">
-            {{ Form::label('name', 'Name') }}
+            {{ Form::label('name', 'Название квеста') }}
             {{ Form::text('name', null, array('class' => 'form-control')) }}
         </div>
 
         <div class="form-group">
-            {{ Form::label('email', 'Email') }}
-            {{ Form::email('email', null, array('class' => 'form-control')) }}
+            {{ Form::label('title', 'Заголовок для отображения на странице (title. по дефолту название квеста.)') }}
+            {{ Form::text('title', null, array('class' => 'form-control')) }}
         </div>
+
+        @foreach($quest['images'] as $image)
+            <img src="{{ asset($image['image']) }}" height="200"/>
+        @endforeach
 
         <div class="form-group">
-            {{ Form::label('nerd_level', 'Nerd Level') }}
-            {{ Form::select('nerd_level', array('0' => 'Select a Level', '1' => 'Sees Sunlight', '2' => 'Foosball Fanatic', '3' => 'Basement Dweller'), null, array('class' => 'form-control')) }}
+            {{ Form::label('description', 'Текстовое описание квеста') }}
+            {{ Form::textarea('description', null, array('class' => 'form-control')) }}
         </div>
 
-        {{ Form::submit('Edit the Nerd!', array('class' => 'btn btn-primary')) }}
+        <div class="row">
+            <div class="form-group col-md-4">
+                {{ Form::label('people_min', 'Минимальное кол-во людей') }}
+                {{ Form::number('people_min', null, array('class' => 'form-control')) }}
+            </div>
+            <div class="form-group col-md-4">
+                {{ Form::label('people_max', 'Максимальное кол-во людей') }}
+                {{ Form::number('people_max', null, array('class' => 'form-control')) }}
+            </div>
+            <div class="form-group col-md-4">
+                {{ Form::label('default_price', 'Дефолтная цена (средняя стоимость для квеста) ') }}
+                {{ Form::number('default_price', null, array('class' => 'form-control')) }}
+            </div>
+        </div>
+
+        {{--<div class="form-group">
+            {{ Form::label('nerd_level', 'Nerd Level') }}
+            {{ Form::select('nerd_level', array('0' => 'Select a Level', '1' => 'Sees Sunlight', '2' => 'Foosball Fanatic', '3' => 'Basement Dweller'), null, array('class' => 'form-control')) }}
+        </div>--}}
+
+        {{ Form::submit('Редактировать', array('class' => 'btn btn-primary')) }}
+        <a href="{{ url('/quests') }}" class="btn btn-info">Вернуться к списку квестов</a>
 
         {{ Form::close() }}
 

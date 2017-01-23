@@ -63,7 +63,7 @@ class QuestsController extends Controller
     public function edit($id)
     {
         return \Response::view('admin.quests.edit', [
-            'quest' => Quest::find($id)
+            'quest' => Quest::with('images')->find($id)
         ]);
     }
 
