@@ -50,8 +50,8 @@
             {{ Form::select('nerd_level', array('0' => 'Select a Level', '1' => 'Sees Sunlight', '2' => 'Foosball Fanatic', '3' => 'Basement Dweller'), null, array('class' => 'form-control')) }}
         </div>--}}
 
-        {{ Form::submit('Редактировать', array('class' => 'btn btn-primary')) }}
-        <a href="{{ url('/quests') }}" class="btn btn-info">Вернуться к списку квестов</a>
+        {{ Form::submit('Сохранить изменения', array('class' => 'btn btn-primary')) }}
+        <a href="{{ url('/admin/quests') }}" class="btn btn-info">Вернуться к списку квестов</a>
 
         {{ Form::close() }}
 
