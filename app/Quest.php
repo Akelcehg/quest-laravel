@@ -32,11 +32,19 @@ use Validator;
 class Quest extends Model
 {
     private $defaultRules = [
-        'name' => 'required'
+        'name' => 'required',
+        'description' => 'required',
+        'people_min' => 'required|integer',
+        'people_max' => 'required|integer'
     ];
 
     private $defaultMessages = [
-        'name.required' => 'Название квеста обязательно для заполнения'
+        'name.required' => 'Название квеста обязательно для заполнения',
+        'description.required' => 'Описание квеста обязательно для заполнения',
+        'people_min.required' => 'Минимальная цена обязательна для заполнения',
+        'people_max.required' => 'Максимальная цена обязательна для заполнения',
+        'people_min.integer' => 'Минимальная цена должна быть числом',
+        'people_max.integer' => 'Максимальная цена должна быть числом',
     ];
 
     protected $fillable = ['name'];

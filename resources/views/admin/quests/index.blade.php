@@ -27,7 +27,7 @@
 
                             <div class="row text-center" style="padding-left:1em;">
                                 {{--<a href="{{ url('/image/'.$quest->id.'/edit') }}" class="btn btn-info pull-left">Подробнее</a>--}}
-                                <a href="{{ url('/admin/quests/'.$quest->id.'/edit') }}" class="btn btn-info pull-left">Подробнее</a>
+                                <a href="{{ url('/admin/quests/'.$quest->id.'/edit') }}" class="btn btn-info pull-left">Редактировать</a>
                                 <span class="pull-left">&nbsp;</span>
                                 {!! Form::open(['url'=>'/image/'.$quest->id, 'class'=>'pull-left']) !!}
                                 {!! Form::hidden('_method', 'DELETE') !!}
