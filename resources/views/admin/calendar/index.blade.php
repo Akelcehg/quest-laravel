@@ -128,40 +128,40 @@
                             <div class="fc-content" style="position: relative; min-height: 1px;">
                                 <div class="fc-view fc-view-month fc-grid" style="position: relative; min-height: 1px;"
                                      unselectable="on">
- {{--                                   <div style="position:absolute;z-index:8;top:0;left:0">
-                                        <div class="fc-event fc-event-hori fc-event-draggable fc-event-start fc-event-end ui-draggable"
-                                             style="position: absolute; z-index: 8; left: 495px; top: 60px;"
-                                             unselectable="on">
-                                            <div class="fc-event-inner"><span class="fc-event-title"
-                                                                              style="position:relative; left:18px; top:10px;font-size:20px;">3</span>
+                                    {{--                                   <div style="position:absolute;z-index:8;top:0;left:0">
+                                                                           <div class="fc-event fc-event-hori fc-event-draggable fc-event-start fc-event-end ui-draggable"
+                                                                                style="position: absolute; z-index: 8; left: 495px; top: 60px;"
+                                                                                unselectable="on">
+                                                                               <div class="fc-event-inner"><span class="fc-event-title"
+                                                                                                                 style="position:relative; left:18px; top:10px;font-size:20px;">3</span>
 
-                                            </div>
-                                            <div class="ui-resizable-handle ui-resizable-e">   </div>
-                                        </div>
-                                        <div class="fc-event fc-event-hori fc-event-draggable fc-event-start"
-                                             style="position: absolute; z-index: 8; left: 804px; width: 304px; top: 352px;">
-                                            <div class="fc-event-inner"><span class="fc-event-title"
-                                                                              style="position:relative; left:18px; top:10px;font-size:20px;">5</span>
+                                                                               </div>
+                                                                               <div class="ui-resizable-handle ui-resizable-e">   </div>
+                                                                           </div>
+                                                                           <div class="fc-event fc-event-hori fc-event-draggable fc-event-start"
+                                                                                style="position: absolute; z-index: 8; left: 804px; width: 304px; top: 352px;">
+                                                                               <div class="fc-event-inner"><span class="fc-event-title"
+                                                                                                                 style="position:relative; left:18px; top:10px;font-size:20px;">5</span>
 
-                                            </div>
-                                        </div>
-                                        <div class="fc-event fc-event-hori fc-event-draggable fc-event-end"
-                                             style="position: absolute; z-index: 8; left: 20px; top: 470px;">
-                                            <div class="fc-event-inner"><span class="fc-event-title"
-                                                                              style="position:relative;left:17px;top:9px;font-size:20px;">2</span>
+                                                                               </div>
+                                                                           </div>
+                                                                           <div class="fc-event fc-event-hori fc-event-draggable fc-event-end"
+                                                                                style="position: absolute; z-index: 8; left: 20px; top: 470px;">
+                                                                               <div class="fc-event-inner"><span class="fc-event-title"
+                                                                                                                 style="position:relative;left:17px;top:9px;font-size:20px;">2</span>
 
-                                            </div>
-                                            <div class="ui-resizable-handle ui-resizable-e">   </div>
-                                        </div>
-                                        <div class="fc-event fc-event-hori fc-event-draggable fc-event-start fc-event-end"
-                                             style="position: absolute; z-index: 8; left: 306px; top: 265px;">
-                                            <div class="fc-event-inner"><span class="fc-event-title"
-                                                                              style="position:relative; left:18px; top:10px;font-size:20px;">21</span>
+                                                                               </div>
+                                                                               <div class="ui-resizable-handle ui-resizable-e">   </div>
+                                                                           </div>
+                                                                           <div class="fc-event fc-event-hori fc-event-draggable fc-event-start fc-event-end"
+                                                                                style="position: absolute; z-index: 8; left: 306px; top: 265px;">
+                                                                               <div class="fc-event-inner"><span class="fc-event-title"
+                                                                                                                 style="position:relative; left:18px; top:10px;font-size:20px;">21</span>
 
-                                            </div>
-                                            <div class="ui-resizable-handle ui-resizable-e">   </div>
-                                        </div>
-                                    </div>--}}
+                                                                               </div>
+                                                                               <div class="ui-resizable-handle ui-resizable-e">   </div>
+                                                                           </div>
+                                                                       </div>--}}
                                     <table class="fc-border-separate" style="width:100%" cellspacing="0">
                                         <thead>
                                         <tr class="fc-first fc-last">
