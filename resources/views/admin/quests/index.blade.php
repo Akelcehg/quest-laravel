@@ -5,7 +5,7 @@
         <div class="row">
             @if(count($quests) > 0)
                 <div class="col-md-12 text-center">
-                    <a href="{{ url('/image/create') }}" class="btn btn-primary" role="button">
+                    <a href="{{ url('/admin/quests/create') }}" class="btn btn-primary" role="button">
                         Добавить квест
                     </a>
                     <hr/>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             @empty
-                <p>No images yet, <a href="{{ url('/image/create') }}">add a new one</a>?</p>
+                <p>No images yet, <a href="{{ url('/admin/quests/create') }}">add a new one</a>?</p>
             @endforelse
         </div>
         <div align="center">{!! $quests->render() !!}</div>

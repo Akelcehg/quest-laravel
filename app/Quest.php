@@ -47,7 +47,7 @@ class Quest extends Model
         'people_max.integer' => 'Максимальная цена должна быть числом',
     ];
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'description', 'people_min', 'people_max', 'default_price', 'title'];
 
     public function validate($input)
     {

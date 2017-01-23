@@ -30,7 +30,7 @@ class QuestsController extends Controller
      */
     public function create()
     {
-        //
+        return \Response::view('admin.quests.create');
     }
 
     /**
@@ -41,7 +41,13 @@ class QuestsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $newQuest = new Quest();
+        $dataValidation = $newQuest->validate($request->all());
+        if ($dataValidation->fails()) return redirect()->back()->withInput()->with('errors', $dataValidation->errors());
+
+        if ($newQuest->create($request->all())) return redirect('/admin/quests')->with('message', 'Квест успешно обновлён');
+
+        return redirect()->back()->with('message', 'Внутренняя ошибка');
     }
 
     /**
@@ -77,13 +83,13 @@ class QuestsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $newQuest = Quest::find($id);
-        $dataValidation = $newQuest->validate($request->all());
+        $quest = Quest::find($id);
+        $dataValidation = $quest->validate($request->all());
 
         if ($dataValidation->fails()) return redirect()->back()->withInput()->with('errors', $dataValidation->errors());
 
-        $newQuest->update($request->all());
-        if ($newQuest->save()) return redirect()->back()->with('message', 'Квест успешно обновлён');
+        $quest->update($request->all());
+        if ($quest->save()) return redirect()->back()->with('message', 'Квест успешно обновлён');
 
         return redirect()->back()->with('message', 'Внутренняя ошибка');
     }
