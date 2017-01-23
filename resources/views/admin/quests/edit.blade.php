@@ -10,9 +10,10 @@
 
         {{ Form::model($quest, array('action' => array('Admin\QuestsController@update', $quest->id), 'method' => 'PUT')) }}
 
-        <div class="form-group">
+        <div class="form-group {{$errors->has("name") ? 'has-error' : ''}}">
             {{ Form::label('name', 'Название квеста') }}
             {{ Form::text('name', null, array('class' => 'form-control')) }}
+            @if ($errors->has('name')) <p class="help-block">{{ $errors->first('name') }}</p> @endif
         </div>
 
         <div class="form-group">
