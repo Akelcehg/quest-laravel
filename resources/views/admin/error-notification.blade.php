@@ -1,5 +1,5 @@
 @if( Session::has('errors') )
-    <div class="alert alert-danger" role="alert" align="center">
+    <div class="alert alert-danger" role="alert" align="center" style="font-size: 14px;">
         <ul>
             @foreach($errors->all() as $error)
                 <li>{{$error}}</li>

@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Validator;
 
 /**
  * App\Quest
@@ -30,6 +31,21 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Quest extends Model
 {
+    private $defaultRules = [
+        'name' => 'required'
+    ];
+
+    private $defaultMessages = [
+        'name.required' => 'Название квеста обязательно для заполнения'
+    ];
+
+    protected $fillable = ['name'];
+
+    public function validate($input)
+    {
+        return Validator::make($input, $this->defaultRules, $this->defaultMessages);
+    }
+
     public function images()
     {
         return $this->hasMany(QuestImage::class);

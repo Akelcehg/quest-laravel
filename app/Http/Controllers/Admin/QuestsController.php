@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Quest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
 
 class QuestsController extends Controller
 {
@@ -76,7 +77,15 @@ class QuestsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $newQuest = Quest::find($id);
+        $dataValidation = $newQuest->validate($request->all());
+
+        if ($dataValidation->fails()) return redirect()->back()->withInput()->with('errors', $dataValidation->errors());
+
+        $newQuest->update($request->all());
+        if ($newQuest->save()) return redirect()->back()->with('message', 'Квест успешно обновлён');
+
+        return redirect()->back()->with('message', 'Внутренняя ошибка');
     }
 
     /**

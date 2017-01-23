@@ -5,7 +5,8 @@
         <h1>Редактирование квеста "{{ $quest->name }}"</h1>
 
         <!-- if there are creation errors, they will show here -->
-        {{ Html::ul($errors->all()) }}
+        {{--{{ Html::ul($errors->all()) }}--}}
+        @include('admin.error-notification')
 
         {{ Form::model($quest, array('action' => array('Admin\QuestsController@update', $quest->id), 'method' => 'PUT')) }}
 
