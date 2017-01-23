@@ -51,6 +51,10 @@
                         <a href="{{route('calendar.index')}}" role="button" aria-expanded="false">Календарь</a>
                     </li>
 
+                    <li>
+                        <a href="{{route('messages.index')}}" role="button" aria-expanded="false">Сообщения</a>
+                    </li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-expanded="false">

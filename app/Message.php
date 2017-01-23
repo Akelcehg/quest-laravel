@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $email
  * @property string $phone
  * @property string $subject
+ * @property string $text
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
  * @method static \Illuminate\Database\Query\Builder|\App\Message whereId($value)
@@ -20,6 +21,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Query\Builder|\App\Message whereEmail($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Message wherePhone($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Message whereSubject($value)
+ * @method static \Illuminate\Database\Query\Builder|\App\Message whereText($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Message whereCreatedAt($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Message whereUpdatedAt($value)
  */

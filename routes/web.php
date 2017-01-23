@@ -34,4 +34,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('quests', 'Admin\QuestsController');
 
     Route::get('calendar', 'Admin\CalendarController@index')->name('calendar.index');
+    Route::get('messages', 'Admin\MessagesController@index')->name('messages.index');
 });
