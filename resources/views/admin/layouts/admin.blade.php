@@ -14,8 +14,8 @@
     <link href="/css/admin/app.css" rel="stylesheet">
     <link href="/css/admin/table.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Scripts -->
+@stack('styles')
+<!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
@@ -46,6 +46,11 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+
+                    <li>
+                        <a href="{{route('calendar.index')}}" role="button" aria-expanded="false">Календарь</a>
+                    </li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-expanded="false">
@@ -107,5 +112,6 @@
 
 <!-- Scripts -->
 <script src="/js/admin/app.js"></script>
+@stack('scripts')
 </body>
 </html>
