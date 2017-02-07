@@ -1,4 +1,5 @@
 @import "../variables";
+
 section.intro {
   position: relative;
   height: 450px;
@@ -24,5 +25,25 @@ section.intro {
   @media screen and (max-width: 768px) {
     display: none;
   }
+}
 
+.login-from {
+  /*display: flex;
+  justify-content: center;*/
+
+  label {
+    color: white;
+  }
+
+  input {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size: 16px;
+    border-radius: 0;
+    border: 1px solid white;
+    box-shadow: none;
+    border-bottom: 1px solid #dcdee0;
+  }
 }

@@ -10,8 +10,9 @@
       'heading'=>''
       ])
 
-    <section>
-        <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+    <section class="intro">
+
+        <form class="form-horizontal login-from" role="form" method="POST" action="{{ url('/login') }}">
             {{ csrf_field() }}
 
             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -44,24 +45,14 @@
             </div>
 
             <div class="form-group">
-                <div class="col-md-6 col-md-offset-4">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" name="remember"> Remember Me
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="form-group">
                 <div class="col-md-8 col-md-offset-4">
-                    <button type="submit" class="btn btn-primary">
-                        Login
+                    <button type="submit" class="quest-button">
+                        Войти
                     </button>
 
-                    <a class="btn btn-link" href="{{ url('/password/reset') }}">
+                    {{--<a class="btn btn-link" href="{{ url('/password/reset') }}">
                         Forgot Your Password?
-                    </a>
+                    </a>--}}
                 </div>
             </div>
         </form>

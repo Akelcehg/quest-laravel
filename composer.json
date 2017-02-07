@@ -13,7 +13,8 @@
     "barryvdh/laravel-ide-helper": "^2.2",
     "doctrine/dbal": "^2.5",
     "barryvdh/laravel-debugbar": "^2.3",
-    "laravelcollective/html": "^5.2.0"
+    "laravelcollective/html": "^5.2.0",
+    "kepex/laravel-crud-generator": "^0.1.7"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
