@@ -3,7 +3,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2017-02-07.
+    * Generated on 2017-03-21.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -45,6 +45,8 @@ namespace PHPSTORM_META {
             'debugbar' instanceof \Barryvdh\Debugbar\LaravelDebugbar,
             'command.debugbar.clear' instanceof \Barryvdh\Debugbar\Console\ClearCommand,
             'blade.compiler' instanceof \Illuminate\View\Compilers\BladeCompiler,
+            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
+            'translator' instanceof \Illuminate\Translation\Translator,
             'cache' instanceof \Illuminate\Cache\CacheManager,
             'cache.store' instanceof \Illuminate\Cache\Repository,
             'memcached.connector' instanceof \Illuminate\Cache\MemcachedConnector,
@@ -126,8 +128,6 @@ namespace PHPSTORM_META {
             'redis' instanceof \Illuminate\Redis\RedisManager,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBrokerManager,
             'auth.password.broker' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
-            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
-            'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
             'html' instanceof \Collective\Html\HtmlBuilder,
             'form' instanceof \Collective\Html\FormBuilder,
@@ -168,6 +168,8 @@ namespace PHPSTORM_META {
             'debugbar' instanceof \Barryvdh\Debugbar\LaravelDebugbar,
             'command.debugbar.clear' instanceof \Barryvdh\Debugbar\Console\ClearCommand,
             'blade.compiler' instanceof \Illuminate\View\Compilers\BladeCompiler,
+            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
+            'translator' instanceof \Illuminate\Translation\Translator,
             'cache' instanceof \Illuminate\Cache\CacheManager,
             'cache.store' instanceof \Illuminate\Cache\Repository,
             'memcached.connector' instanceof \Illuminate\Cache\MemcachedConnector,
@@ -249,8 +251,6 @@ namespace PHPSTORM_META {
             'redis' instanceof \Illuminate\Redis\RedisManager,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBrokerManager,
             'auth.password.broker' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
-            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
-            'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
             'html' instanceof \Collective\Html\HtmlBuilder,
             'form' instanceof \Collective\Html\FormBuilder,
@@ -291,6 +291,8 @@ namespace PHPSTORM_META {
             'debugbar' instanceof \Barryvdh\Debugbar\LaravelDebugbar,
             'command.debugbar.clear' instanceof \Barryvdh\Debugbar\Console\ClearCommand,
             'blade.compiler' instanceof \Illuminate\View\Compilers\BladeCompiler,
+            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
+            'translator' instanceof \Illuminate\Translation\Translator,
             'cache' instanceof \Illuminate\Cache\CacheManager,
             'cache.store' instanceof \Illuminate\Cache\Repository,
             'memcached.connector' instanceof \Illuminate\Cache\MemcachedConnector,
@@ -372,8 +374,6 @@ namespace PHPSTORM_META {
             'redis' instanceof \Illuminate\Redis\RedisManager,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBrokerManager,
             'auth.password.broker' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
-            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
-            'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
             'html' instanceof \Collective\Html\HtmlBuilder,
             'form' instanceof \Collective\Html\FormBuilder,
@@ -414,6 +414,8 @@ namespace PHPSTORM_META {
             'debugbar' instanceof \Barryvdh\Debugbar\LaravelDebugbar,
             'command.debugbar.clear' instanceof \Barryvdh\Debugbar\Console\ClearCommand,
             'blade.compiler' instanceof \Illuminate\View\Compilers\BladeCompiler,
+            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
+            'translator' instanceof \Illuminate\Translation\Translator,
             'cache' instanceof \Illuminate\Cache\CacheManager,
             'cache.store' instanceof \Illuminate\Cache\Repository,
             'memcached.connector' instanceof \Illuminate\Cache\MemcachedConnector,
@@ -495,8 +497,6 @@ namespace PHPSTORM_META {
             'redis' instanceof \Illuminate\Redis\RedisManager,
             'auth.password' instanceof \Illuminate\Auth\Passwords\PasswordBrokerManager,
             'auth.password.broker' instanceof \Illuminate\Auth\Passwords\PasswordBroker,
-            'translation.loader' instanceof \Illuminate\Translation\FileLoader,
-            'translator' instanceof \Illuminate\Translation\Translator,
             'validation.presence' instanceof \Illuminate\Validation\DatabasePresenceVerifier,
             'html' instanceof \Collective\Html\HtmlBuilder,
             'form' instanceof \Collective\Html\FormBuilder,

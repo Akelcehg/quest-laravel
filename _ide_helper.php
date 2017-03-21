@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.4.9 on 2017-02-07.
+ * Generated for Laravel 5.4.9 on 2017-03-21.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -15218,6 +15218,190 @@ namespace {
         public static function offsetUnset($key){
             //Method inherited from \DebugBar\DebugBar            
             return \Barryvdh\Debugbar\LaravelDebugbar::offsetUnset($key);
+        }
+        
+    }
+
+
+    class Admin extends \Encore\Admin\Facades\Admin{
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @param \Closure $callable
+         * @return \Encore\Admin\Grid 
+         * @static 
+         */
+        public static function grid($model, $callable){
+            return \Encore\Admin\Admin::grid($model, $callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @param \Closure $callable
+         * @return \Encore\Admin\Form 
+         * @static 
+         */
+        public static function form($model, $callable){
+            return \Encore\Admin\Admin::form($model, $callable);
+        }
+        
+        /**
+         * Build a tree.
+         *
+         * @param $model
+         * @return \Encore\Admin\Tree 
+         * @static 
+         */
+        public static function tree($model, $callable = null){
+            return \Encore\Admin\Admin::tree($model, $callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param \Closure $callable
+         * @return \Encore\Admin\Layout\Content 
+         * @static 
+         */
+        public static function content($callable = null){
+            return \Encore\Admin\Admin::content($callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @return mixed 
+         * @static 
+         */
+        public static function getModel($model){
+            return \Encore\Admin\Admin::getModel($model);
+        }
+        
+        /**
+         * Get namespace of controllers.
+         *
+         * @return string 
+         * @static 
+         */
+        public static function controllerNamespace(){
+            return \Encore\Admin\Admin::controllerNamespace();
+        }
+        
+        /**
+         * Add css or get all css.
+         *
+         * @param null $css
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */
+        public static function css($css = null){
+            return \Encore\Admin\Admin::css($css);
+        }
+        
+        /**
+         * Add js or get all js.
+         *
+         * @param null $js
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */
+        public static function js($js = null){
+            return \Encore\Admin\Admin::js($js);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $script
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */
+        public static function script($script = ''){
+            return \Encore\Admin\Admin::script($script);
+        }
+        
+        /**
+         * Admin url.
+         *
+         * @param $url
+         * @return string 
+         * @static 
+         */
+        public static function url($url){
+            return \Encore\Admin\Admin::url($url);
+        }
+        
+        /**
+         * Left sider-bar menu.
+         *
+         * @return array 
+         * @static 
+         */
+        public static function menu(){
+            return \Encore\Admin\Admin::menu();
+        }
+        
+        /**
+         * Get admin title.
+         *
+         * @return \Config 
+         * @static 
+         */
+        public static function title(){
+            return \Encore\Admin\Admin::title();
+        }
+        
+        /**
+         * Get current login user.
+         *
+         * @return mixed 
+         * @static 
+         */
+        public static function user(){
+            return \Encore\Admin\Admin::user();
+        }
+        
+        /**
+         * Set navbar.
+         *
+         * @param \Closure $builder
+         * @static 
+         */
+        public static function navbar($builder){
+            return \Encore\Admin\Admin::navbar($builder);
+        }
+        
+        /**
+         * Get navbar object.
+         *
+         * @return \Encore\Admin\Widgets\Navbar 
+         * @static 
+         */
+        public static function getNavbar(){
+            return \Encore\Admin\Admin::getNavbar();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function registerAuthRoutes(){
+            return \Encore\Admin\Admin::registerAuthRoutes();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function registerHelpersRoutes($attributes = array()){
+            return \Encore\Admin\Admin::registerHelpersRoutes($attributes);
         }
         
     }

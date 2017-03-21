@@ -26,7 +26,7 @@ Route::get('/contact', 'ContactController@index');
 
 
 //Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
-Route::group(['prefix' => 'admin'], function () {
+/*Route::group(['prefix' => 'admin'], function () {
 
     Route::get('/', 'Admin\HomeController@index');
 
@@ -35,6 +35,9 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::get('calendar', 'Admin\CalendarController@index')->name('calendar.index');
     Route::get('messages', 'Admin\MessagesController@index')->name('messages.index');
-});
+});*/
 Route::get('/messages/grid', 'MessagesController@grid');
 Route::resource('/messages', 'MessagesController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
