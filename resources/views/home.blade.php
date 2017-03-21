@@ -115,7 +115,7 @@
                             </div>
 
                             <div class="button-wrap">
-                                <a href="#" class="quest-button">ПОДРОБНЕЕ</a>
+                                <a href="/quest/temp" class="quest-button">ПОДРОБНЕЕ</a>
                             </div>
 
                         </div>
@@ -149,7 +149,7 @@
                             </div>
 
                             <div class="button-wrap">
-                                <a href="#" class="quest-button">ПОДРОБНЕЕ</a>
+                                <a href="/quest/temp" class="quest-button">ПОДРОБНЕЕ</a>
                             </div>
 
                         </div>
@@ -184,7 +184,7 @@
                             </div>
 
                             <div class="button-wrap">
-                                <a href="#" class="quest-button">ПОДРОБНЕЕ</a>
+                                <a href="/quest/temp" class="quest-button">ПОДРОБНЕЕ</a>
                             </div>
 
                         </div>
