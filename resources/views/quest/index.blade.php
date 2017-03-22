@@ -108,19 +108,22 @@
                         @for($j=1;$j<8;$j++)
                             <div class="times-wrap">
                                 <?php $w = '4%';?>
-                                <div class="times-row">
+                                <div class="times-row" style="justify-content: space-around;">
                                     @for($i = 1; $i <= 18; $i++)
-                                        <div style="width: <?=$w?>; margin-left: 1.5%;">
+                                        <div style="width: <?=$w?>; min-width: 55px;">
                                             <div class="time">
                                                 15:21
                                             </div>
                                         </div>
                                     @endfor
                                 </div>
-                                <div class="prices-row">
+                                {{--<div class="prices-row" style="padding-left: 15px;">--}}
+                                <div class="prices-row" style="justify-content: space-around;">
                                     @for($i = 1; $i <= 18; $i++)
-                                        <div class="price">
-                                            <p style="font-size: 12px; ">
+                                        <div class="price"
+                                             style="width: <?=$w+1?>; min-width: 55px;">
+
+                                            <p style="font-size: 12px; text-align: center;">
                                                 500 грн.</p>
                                         </div>
                                     @endfor
