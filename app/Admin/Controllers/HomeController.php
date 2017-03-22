@@ -29,13 +29,13 @@ class HomeController extends Controller
             $content->description('Description...');
 
             $content->row(function ($row) {
-                $row->column(3, new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024'));
+/*                $row->column(3, new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024'));
                 $row->column(3, new InfoBox('New Orders', 'shopping-cart', 'green', '/admin/orders', '150%'));
                 $row->column(3, new InfoBox('Articles', 'book', 'yellow', '/admin/articles', '2786'));
-                $row->column(3, new InfoBox('Documents', 'file', 'red', '/admin/files', '698726'));
+                $row->column(3, new InfoBox('Documents', 'file', 'red', '/admin/files', '698726'));*/
             });
 
-            $content->row(function (Row $row) {
+            /*$content->row(function (Row $row) {
 
                 $row->column(6, function (Column $column) {
 
@@ -109,7 +109,7 @@ class HomeController extends Controller
                 [5, 'ipsa.aut@gmail.com', 'Ms. Antonietta Kozey Jr.', 'Braun Ltd', '2013-10-16 10:00:01', 'open'],
             ];
 
-            $content->row((new Box('Table', new Table($headers, $rows)))->style('info')->solid());
+            $content->row((new Box('Table', new Table($headers, $rows)))->style('info')->solid());*/
         });
     }
 }

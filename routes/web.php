@@ -15,7 +15,7 @@
     return view('welcome');
 });*/
 
-Auth::routes();
+//Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/quests', 'QuestsController@index');
 Route::get('/quest/{name}', 'QuestController@index');
