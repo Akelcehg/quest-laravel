@@ -32,6 +32,9 @@
       }
 
       .text {
+        @media screen and (max-width: 350px) {
+          margin: 10px 10px 10px 10px;
+        }
         position: absolute;
         z-index: 2;
         display: flex;
@@ -60,6 +63,9 @@
         }
 
         .info {
+          @media screen and (max-width: 350px) {
+            width: 100%;
+          }
           width: 70%;
           height: 100%;
           //display: flex;
@@ -73,12 +79,16 @@
 
           .button-wrap {
             display: flex;
-            .quest-button{
+            .quest-button {
               margin-top: 15px;
             }
           }
         }
         .price {
+          @media screen and (max-width: 350px) {
+            display: none;
+          }
+
           display: flex;
           justify-content: center;
           width: 30%;
